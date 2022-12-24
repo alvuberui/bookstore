@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+{% load static %}
+{% include 'static/components/head.html' %}
+{% load crispy_forms_tags %}         
+
+
+
+<body>
+	{% include 'static/components/messages.html' %}
+
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-sm-center h-100">
+					<div class="text-center my-5">
+						<img src='{% static 'main/icon-blanco-nol.jpg' %}' alt="logo" width="100">
+					</div>
+					<div class="card shadow-lg">
+						<div class="card-body">
+							<h1 class="fs-4 card-title fw-bold mb-4">Registro</h1>
+                            <div class="container py-5">
+                                <form method="POST">
+                                    {% csrf_token %}
+                                    {{ register_form|crispy }}    
+									<div class="d-flex  justify-content-end">
+										<button class="btn btn-primary d-flex" type="submit">Registrarse</button>
+									</div>
+                                </form>
+                            </div>
+						</div>
+            
+						<div class="card-footer py-3 border-0">
+							<div class="text-center">
+								Ya tienes cuenta? <a href="/login" class="text-dark">Iniciar Sesión </a>
+							</div>
+						</div>
+					</div>
+					<div class="text-center mt-5 text-muted">
+						Copyright &copy; 2022 &mdash; BookStore
+					</div>
+			</div>
+		</div>
+	</section>
+	{% include 'static/components/footer.html' %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include 'static/components/head.html' %}
+    <body>
+        {% include 'static/components/messages.html' %}
+        {% include 'static/components/navbar.html' %}
+
+        {% block header %}{% endblock %}
+
+        {% block section %}{% endblock %}
+
+        {% include 'static/components/footer.html' %}
+
+        
+        {% include 'static/components/cokies.html' %}
+
+
+    </body>
+</html>

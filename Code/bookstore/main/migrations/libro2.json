@@ -1,0 +1,834 @@
+[
+    {
+        "model": "main.libro",
+        "pk": "15572",
+        "fields": {
+            "id": "15572",
+            "titulo": "Ajedrez",
+            "autor": "Varios",
+            "sinopsis": "Esta cartilla contiene una serie de elementos b\u00e1sicos para facilitarle un conocimiento claro y preciso del ajedrez. Siguiendo las orientaciones de esta cartilla se podr\u00e1n alcanzar las habilidades y destrezas elementales y necesarias para jugar correctamente. Debido a las infinitas posibilidades de movimientos, el ajedrez obliga a los que lo practican a reflexionar detenidamente cada jugada, adquiriendo cada vez un mayor poder an\u00e1lisis. De esta manera, la pr\u00e1ctica del ajedrez conduce a aprender a pensar.\r\n\r\nEsperamos que no se limite al estudio de este cuaderno, sino que se proyecte para alcanzar un buen dominio del ajedrez jugando partidas y participando en torneos.",
+            "precio": 14,
+            "categoria": "Ajedrez",
+            "stock": 71,
+            "imagen": "static/images/15572.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15580",
+        "fields": {
+            "id": "15580",
+            "titulo": "Ajedrez para la ense\u00f1anza primaria",
+            "autor": "Sergio A. Vicente Mart\u00ednez",
+            "sinopsis": "El entorno educativo debe potenciar al m\u00e1ximo en los alumnos las capacidades afectivas, sociales, motoras e intelectuales, ya que es el centro del proceso de ense\u00f1anza y aprendizaje. \r\n\r\nNos proponemos introducir el ajedrez en el \u00e1rea de Educaci\u00f3n F\u00edsica dentro de la etapa de Educaci\u00f3n Primaria con car\u00e1cter formal, ya que es el periodo m\u00e1s apropiado para poder ense\u00f1ar este deporte y su multiplicidad de variables que se pueden realizar. \r\n\r\nComo hemos mencionado, el presente libro va destinado a cualquier docente en general, pero en especial al docente especialista en esta materia, ya que esta \u00e1rea, por su car\u00e1cter l\u00fadico y por el tipo de contenidos que trata, es el escenario m\u00e1s id\u00f3neo para poner en pr\u00e1ctica el ajedrez. Adem\u00e1s, la falta de instalaciones y recursos en algunos centros escolares, junto a las condiciones climatol\u00f3gicas que se pueden presentar, nos obligan a veces a tomar medidas que no est\u00e1n programadas en nuestra labor docente y, por ello, el ajedrez ser\u00eda una soluci\u00f3n interesante para trabajar en ese espacio de tiempo. \r\n\r\nNo es objetivo del libro, a pesar de que existe informaci\u00f3n en \u00e9l, servirle al lector una serie de unidades did\u00e1cticas r\u00edgidas a la hora de ponerlas en pr\u00e1ctica. Tratamos de dar al docente una serie de orientaciones did\u00e1cticas basado en lo l\u00fadico, lo creativo, lo constructivo, lo significativo y en la experiencia. Otro objetivo que nos marcamos es potenciar en el alumno, la actividad intelectual sin dejar los lados los aspectos afectivos y sociales, que si podemos conseguir con el ajedrez.",
+            "precio": 26,
+            "categoria": "Ajedrez",
+            "stock": 77,
+            "imagen": "static/images/15580.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16673",
+        "fields": {
+            "id": "16673",
+            "titulo": "Multidisciplinate",
+            "autor": "Varios",
+            "sinopsis": "Combina las artes y cre\u00e1 con tu net:\r\n\r\n<ul>\r\n<li>Entrevista: Pich\u00f3n Baldin\u00fa. El arte y la tecnolog\u00eda</li>\r\n<li>De las vanguardias del siglo xx a nuestros d\u00edas</li>\r\n<li>Cre\u00e1 una obra multidisciplinaria para tu escuela</li>\r\n<li>Monkey Jam, un programa multidisciplinario</li>\r\n</ul>",
+            "precio": 20,
+            "categoria": "Arte - Bellas Artes",
+            "stock": 12,
+            "imagen": "static/images/16673.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16083",
+        "fields": {
+            "id": "16083",
+            "titulo": "Teor\u00eda de la pr\u00e1ctica art\u00edstica: Fundamentos para una mirada situada del campo est\u00e9tico y cultural",
+            "autor": "M\u00f3nica Caballero",
+            "sinopsis": "Este libro se encuentra divido en tres partes: La Introducci\u00f3n y la Parte I incluyen reflexiones sobre c\u00f3mo pensar una teor\u00eda de la pr\u00e1ctica art\u00edstica. La Parte II delimita conceptos claves, fundamentos epistemol\u00f3gicos iniciales, a partir de una serie de \u201cdi\u00e1logos\u201d con estudiantes. La Parte III desarrolla ideas espec\u00edficas de nuestro campo: la situacionalidad en el marco de la cultura, el fen\u00f3meno art\u00edstico y las condiciones \u00e9ticas para pensar lo tecnol\u00f3gico en nuestra \u00e9poca. En sus tres partes, el libro recupera ese estilo claro y coloquial de conversaci\u00f3n y discusi\u00f3n interpersonal que hemos ejercido durante casi treinta a\u00f1os en el aula.",
+            "precio": 5,
+            "categoria": "Arte - Bellas Artes",
+            "stock": 42,
+            "imagen": "static/images/16083.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15912",
+        "fields": {
+            "id": "15912",
+            "titulo": "Gu\u00eda del Derecho y el Software de Fuentes Abiertas",
+            "autor": "Varios",
+            "sinopsis": "A medida que el Software de Fuentes Abiertas (SFA), conocido tambi\u00e9n en ingl\u00e9s como Open Source Software, adquiere m\u00e1s importancia en todos los sectores de la econom\u00eda y en la vida personal, se hace m\u00e1s necesario entender cu\u00e1les son los derechos y obligaciones de las personas y organizaciones frente al mismo. \r\n\r\nEsta gu\u00eda pretende presentar y comentar, brevemente y con un enfoque generalista, los principales aspectos jur\u00eddicos del SFA. Se trata de un documento divulgativo. Nuestro fn no es redactar un tratado sobre la protecci\u00f3n jur\u00eddica y la explotaci\u00f3n del software distribuido bajo licencias de SFA, sino presentar una gu\u00eda pr\u00e1ctica y accesible a cualquier persona u organizaci\u00f3n. \r\n\r\nDirigimos esta gu\u00eda de manera general a las diversas personas, empresas y entidades en todos los sectores que participan la cadena de creaci\u00f3n, integraci\u00f3n y uso de software de fuentes abiertas. En particular, se dirige a: \r\n\r\n<ul>\r\n<li>Profesionalesenlosdepartamentosdesistemasydetecnolog\u00edadelasorganizaciones usuarias de software, tanto en el sector privado (la empresa) como el institucional o p\u00fablico.</li> \r\n<li>Estudiantes, investigadores o profesores universitarios, que desarrollan software en un marco institucional educativo o de manera independiente, solos o con un grupo de trabajo o investigaci\u00f3n; con la intenci\u00f3n de utilizar o liberar software bajo licencia de fuentes abiertas.</li> \r\n<li>Desarrolladores que participan en proyectos o comunidades ya existentes de software de fuentes abiertas, que suponen la participaci\u00f3n de varios actores en la creaci\u00f3n y divulgaci\u00f3n del software a lo largo del tiempo; as\u00ed como las personas responsables de los mismos; en particular los responsables de la gesti\u00f3n del c\u00f3digo y de la comunidad.</li> \r\n<li>Consultores inform\u00e1ticos (una empresa, un profesional) que proveen soluciones inform\u00e1ticas como respuesta a las necesidades particulares de sus clientes, proporcionando software de nueva creaci\u00f3n o integrando y personalizando software y soluciones inform\u00e1ticas de fuentes abiertas de terceros.</li> \r\n<li>Gestores y\u201cpropietarios\u201dde proyectos en estas mismas organizaciones que gestionan la adquisici\u00f3n e implementaci\u00f3n de proyectos inform\u00e1ticos.</li> \t \r\n<li>Usuarios particulares, que deseen conocer m\u00e1s sobre los derechos y libertades del software de fuentes abiertas y sus aspectos jur\u00eddicos. </li>\r\n</ul>\r\n\r\nNuestro objetivo es ayudarles a entender cu\u00e1les son los derechos y obligaciones que se derivan de las licencias y el derecho aplicable al software de fuentes abiertas: incentivar su desarrollo, adquisici\u00f3n, uso y liberaci\u00f3n; asegurar que sus benefcios son explotados correctamente; y eliminar cualquier reticencia que pueda existir por desconocimiento de las cuestiones jur\u00eddicas.",
+            "precio": 5,
+            "categoria": "Aspectos Legales",
+            "stock": 76,
+            "imagen": "static/images/15912.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16512",
+        "fields": {
+            "id": "16512",
+            "titulo": "Cultura, salud, cine y televisi\u00f3n: Recursos audiovisuales en Ciencias de la Salud y Sociales",
+            "autor": "Serena Brigidi (Ed.)",
+            "sinopsis": "Este libro quiere crear una reflexi\u00f3n en torno al uso, creaci\u00f3n y elaboraci\u00f3n de materiales audiovisuales \u2013documentales, pel\u00edculas, programas televisivos, anuncios y series de televisi\u00f3n\u2013 en la did\u00e1ctica e investigaci\u00f3n de las ciencias de la salud y ciencias sociales. \r\n\r\nPara ello se recogen diversas contribuciones realizadas en el marco del Seminario Cultura, Salud y Cine que proceden de diversos campos de saberes: Antropolog\u00eda M\u00e9dica, Bio\u00e9tica, Historia de la Medicina, Estudios de G\u00e9nero y F\u00edsica. \r\n\r\nPor una parte, las aportaciones tienen como objetivo explorar algunas categor\u00edas diagn\u00f3sticas utilizadas en los discursos biom\u00e9dicos y tambi\u00e9n en t\u00e9rminos de identidades, cuerpos y estigmatizaciones (sin olvidar el papel de los profesionales de la salud, pacientes y cuidadores dentro de los recursos audiovisuales). \r\n\r\nPor otra parte, se profundizan los aspectos tecnocient\u00edficos y los procesos de popularizaci\u00f3n de la ciencia, la medicina y la tecnolog\u00eda presentes en las obras cinematogr\u00e1ficas, tanto cl\u00e1sicas como modernas, relacionadas con las ciencias de la salud.",
+            "precio": 16,
+            "categoria": "Cine",
+            "stock": 97,
+            "imagen": "static/images/16512.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15334",
+        "fields": {
+            "id": "15334",
+            "titulo": "La m\u00fasica en las Maneras de Representaci\u00f3n cinematogr\u00e1fica",
+            "autor": "Josep Torell\u00f3",
+            "sinopsis": "Todav\u00eda se puede decir que el cambio m\u00e1s importante en el mundo del cine, el primer gran audiovisual de la historia, se produjo en 1927 con la incorporaci\u00f3n del sonido. Com\u00fanmente, se denomina el periodo anterior a esta fecha como cine mudo o silente. Pero el cine nunca fue mudo. Casi siempre hab\u00eda habido un piano o un comentador a pie de pantalla o, cuando no, para las grandes ocasiones, una buena orquesta. \r\n\r\nAhora bien, a finales de la d\u00e9cada de 1920, y por m\u00e1s que ya se hab\u00edan dado algunas experimentaciones al respecto desde principios de \u00e9sta e incluso un gran inter\u00e9s desde sus or\u00edgenes, el Vitaphone fue el primer sistema eficaz de sonido sincronizado, registrado en grandes discos armonizados con la imagen que, a principios de la d\u00e9cada de 1930, fue substituido por el Movietone, que incorporaba la banda sonora en el propio fotograma.\r\n\r\n(...)\r\n\r\nY aqu\u00ed es donde adquiere un enorme inter\u00e9s el estudio, presente en este libro, que su autor Josep Torell\u00f3 ha elaborado: en la explicaci\u00f3n considerable y novedosa, dentro de la disciplina de los Films Studies, de la presencia de la m\u00fasica en los films a trav\u00e9s del desarrollo del lenguaje cinematogr\u00e1fico, y en la demostraci\u00f3n de c\u00f3mo la imagen y la m\u00fasica se han ensamblado, desde sus or\u00edgenes, en una expresi\u00f3n conjunta que el autor califica de expresi\u00f3n cinematogr\u00e1fica. \r\n\r\nEn resumen, La m\u00fasica en las maneras de representaci\u00f3n cinematogr\u00e1fica profundiza en la relaci\u00f3n est\u00e9tica y formal y en la articulaci\u00f3n de la imagen y el sonido en el cine, y en sus maneras de representaci\u00f3n a lo largo de la historia. Y lo hace con astucia y rigor, pero tambi\u00e9n, y sin duda, con humildad y entusiasmo, el mismo que aprend\u00ed de su autor cuando me convenci\u00f3 completamente de aquella reflexi\u00f3n nietzscheana de que la vida sin m\u00fasica ser\u00eda un error.",
+            "precio": 29,
+            "categoria": "Cine",
+            "stock": 9,
+            "imagen": "static/images/15334.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "12001",
+        "fields": {
+            "id": "12001",
+            "titulo": "Guionizaci\u00f3n de series de animaci\u00f3n",
+            "autor": "Neus Devesa",
+            "sinopsis": "El proceso de escribir una historia de animaci\u00f3n no es muy diferente al proceso de creaci\u00f3n de cualquier otra historia, ya sea interpretada por actores de carne y hueso, personajes en 2D o 3D; vaya a ser transmitida por la televisi\u00f3n o el cine, o ser editada en un libro. El punto de arranque, el momento en el que el creador piensa qu\u00e9 quiere narrar, a qui\u00e9n le pasar\u00e1 la historia y qu\u00e9 cosas suceder\u00e1n no es diferente, sea cual sea la transformaci\u00f3n que despu\u00e9s se llevar\u00e1 a cabo. Lo que cambia es el desarrollo de la historia. El medio de comunicaci\u00f3n por el que se escribe, en cambio, s\u00ed que condiciona enormemente el modo como el guionista, en nuestro caso, desarrolla el gui\u00f3n.\r\n\r\nCada producci\u00f3n audiovisual utiliza unos medios, tiene unos recursos determinados para su realizaci\u00f3n, tanto t\u00e9cnicos, como econ\u00f3micos. \u00c9stos marcan el modo de convertir aquella idea inicial en un producto acabado. En este sentido, es muy diferente si hablamos de rodar un gui\u00f3n con personas e im\u00e1genes reales, que si elaboramos una producci\u00f3n de animaci\u00f3n. El guionista primeramente debe dominar el medio para el que trabaja, conocer sus ventajas y limitaciones. De acuerdo con el medio deber\u00e1 adaptar su historia.\r\n\r\nEs pues el momento de pasar a la acci\u00f3n y descubrir aquellos elementos que nos ayudar\u00e1n a escribir una historia coherente, bien estructura y que se pueda convertir en una buena producci\u00f3n audiovisual.",
+            "precio": 7,
+            "categoria": "Cine",
+            "stock": 9,
+            "imagen": "static/images/12001.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "11880",
+        "fields": {
+            "id": "11880",
+            "titulo": "Haciendo dibujitos en el Fin del Mundo",
+            "autor": "Varios",
+            "sinopsis": "Este libro Haciendo dibujitos en el fin del mundo pretende resumir la experiencia reunida durante los primeros cinco a\u00f1os de funcionamiento de la Escuela para Animadores de Rosario.\r\n\r\nLa Escuela fue fundada en 2006 por una iniciativa conjunta del Centro Audiovisual Rosario y la Isla de los Inventos (instituciones de la Secretar\u00eda de Cultura y Educaci\u00f3n municipal) y un grupo de animadores independientes y autodidactas que, previamente, hab\u00edan fundado el taller El S\u00f3tano en el mismo local donde sol\u00eda funcionar el estudio-escuela de Luis Bras. Actualmente, a dicho grupo se han sumado egresados de la Escuela, d\u00e1ndose lugar a la conformaci\u00f3n de una cooperativa de trabajo3. En tal sentido, nos proponemos recopilar opiniones e ilustraciones elaboradas por los docentes de la Escuela sobre los contenidos que se despliegan cada a\u00f1o a lo largo del curso y citar art\u00edculos o p\u00e1rrafos de referentes notables que consideramos imprescindibles y esclarecedores.\r\n\r\nEl objetivo de la Escuela es reunir cada a\u00f1o a treinta dibujantes, interesados en poner sus dibujos en movimiento para contar historias. En una ciudad que no tuvo y no tiene un desarrollo industrial en la producci\u00f3n de dibujos animados y en medio de una acelerada evoluci\u00f3n de las herramientas digitales\r\n\r\npara realizar y distribuir bienes audiovisuales, nuestra apuesta es poner el foco sobre el animador, sus motivaciones, su sensibilidad y su visi\u00f3n particular de la realidad, valorando la diversidad y la condici\u00f3n humana.",
+            "precio": 13,
+            "categoria": "Cine",
+            "stock": 77,
+            "imagen": "static/images/11880.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "11623",
+        "fields": {
+            "id": "11623",
+            "titulo": "M\u00fasica e Im\u00e1genes hasta la llegada del Cine",
+            "autor": "Montserrat Armell Femen\u00eda & Antonio Ezquerro Esteban",
+            "sinopsis": "La 'pre-historia' del cine hablado, en lo relativo a la coordinaci\u00f3n de im\u00e1genes en movimiento y setido, supone un per\u00edodo extens\u00edsimo de tiempo, que abarca miles de a\u00f1os, desde la ilustraci\u00f3n sonora de sombras proyectadas documentada en la antigua China, hasta pr\u00e1cticamente los albores del cinemat\u00f3grafo, un avance tecnol\u00f3gico impensable \u2014 hoy en d\u00eda m\u00e1s que nunca \u2014 sin la aportaci\u00f3n que m\u00fasica y sonido han hecho al denominado s\u00e9ptimo arte. \r\n\r\nEl presente trabajo pretende ofrecer una panor\u00e1mica de lahistoria de la \u2014documentadamente inconexa, aunque continua\u2014 preocupaci\u00f3n humana por fijar el movimiento de un modo visual y sonoro a un tiempo, prestando particular atenci\u00f3n a algunos logros t\u00e9cnicos de especial relevancia (la linterna m\u00e1gica, la arm\u00f3nica de cristal, las fantasmagor\u00edas, el teatro de sombras), dentro del recorrido que facilitar\u00eda, ya entrado el siglo XX, el nacimiento del cine sonoro. Una mera introducci\u00f3n a un mundo fascinante y deplena actualidad, que, en el terreno puramente musicol\u00f3gico, por lo pr\u00e1cticamente virgen a fecha de hoy (y la escas\u00edsima y marginal bibliograf\u00eda al respecto es la mayor prueba de ello), precisar\u00eda de nuevos y m\u00e1s detallados estudios. ",
+            "precio": 24,
+            "categoria": "Arte - Bellas Artes",
+            "stock": 92,
+            "imagen": "static/images/11623.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "17011",
+        "fields": {
+            "id": "17011",
+            "titulo": "George Herriman Krazy Kat es Krazy Kat es Krazy Kat",
+            "autor": "Varios",
+            "sinopsis": "Hoy nadie duda del valor art\u00edstico del c\u00f3mic, ni de su influencia en la vanguardia cultural; todos hemos visto c\u00f3mo el talento de los historietistas ha ido reconoci\u00e9ndose y observ\u00e1ndose con mayor inter\u00e9s desde las \u00faltimas d\u00e9cadas del siglo pasado. El paradigma de esa nueva mirada hacia lo que originalmente fue considerado un arte menor lo encontramos en la carrera de George Herriman y en particular en su tira c\u00f3mica m\u00e1s notable, Krazy Kat. Las aventuras del gato Krazy y del rat\u00f3n Ignatz no alcanzaron popularidad hasta despu\u00e9s de la muerte de Herriman pero contaron con la admiraci\u00f3n confesa de personalidades tan relevantes y variadas como T. S. Eliot, Pablo Picasso, Umberto Eco, E. E. Cummings o Gertrude Stein. \r\n\r\nHerriman imagin\u00f3 en sus vi\u00f1etas un universo variopinto de l\u00edneas din\u00e1micas, ritmos vertiginosos y sincopados y extravagantes personajes que parecen cobrar vida m\u00e1s all\u00e1 del papel. Su gusto por el arte aborigen, por las figuras antropom\u00f3rficas y los paisajes des\u00e9rticos, as\u00ed como la vinculaci\u00f3n con el psicoan\u00e1lisis y el subconsciente que descubrimos en la inversi\u00f3n de la l\u00f3gica o en la plasmaci\u00f3n de comportamientos patol\u00f3gicos donde el dolor aparece como una forma autodestructiva de placer, emparentan a Krazy Kat con aspectos que m\u00e1s tarde desarrollar\u00eda el surrealismo.\r\n\r\nCummings, que defini\u00f3 la serie como un \u201cmete\u00f3rico melodrama burlesco\u201d, o Gertrude Stein, que acostumbraba a leer junto a Picasso la tira Krazy Kat cuando recib\u00eda su correo desde Estados Unidos, supieron ver en los trazos y la iron\u00eda de Herriman la bandera de un precursor. En 1984 el Museum of Cartoon Art de Rye Brook, en Nueva York, le dedic\u00f3 su primera gran retrospectiva, culminando el camino al reconocimiento de la cr\u00edtica que hab\u00eda iniciado a\u00f1os atr\u00e1s. Desde entonces el inter\u00e9s por este autor y su creaci\u00f3n m\u00e1s c\u00e9lebre no ha cesado. Destacan especialmente la publicaci\u00f3n Krazy Kat: The Comic Art of George Herriman (1986), editada por Patrick McDonnell, Karen O\u2019Connell y Georgia Riley de Havenon; y la completa biograf\u00eda Krazy: George Herriman: A Life in Black and White (2016) de Michael Tisserand.",
+            "precio": 30,
+            "categoria": "C\u00f3mics",
+            "stock": 47,
+            "imagen": "static/images/17011.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "13807",
+        "fields": {
+            "id": "13807",
+            "titulo": "Dibujo art\u00edstico - Nociones B\u00e1sicas",
+            "autor": "Bernardo Ramonfaur Garza",
+            "sinopsis": "Esta peque\u00f1a gu\u00eda pretende ser un apoyo para todo aquel que dese\u00e9 aprender a dibujar. Se intenta presentar de manera breve y sencilla, mostrando ejercicios, l\u00e1minas y nociones b\u00e1sicas para dibujar objetos de todo tipo, as\u00ed como plantas, animales y figura humana. \r\n\r\n\u00a1Te recordamos que lo mas importante en el dibujo es la pr\u00e1ctica!\r\n\r\nContenido:\r\n<ul>\r\n<li>Nociones b\u00e1sicas: historia, materiales, ejercicios para trazo, formas y figuras b\u00e1sicas</li>\r\n<li>Formas artificiales</li>\r\n<li>Formas naturales</li>\r\n<li>Cuerpo humano</li>\r\n</ul>",
+            "precio": 17,
+            "categoria": "C\u00f3mics",
+            "stock": 75,
+            "imagen": "static/images/13807.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "13805",
+        "fields": {
+            "id": "13805",
+            "titulo": "Mi taller digital: C\u00f3mic Digital",
+            "autor": "Varios",
+            "sinopsis": "Te damos la bienvenida a la primera sesi\u00f3n del Taller Narrativa Gr\u00e1fica. Eres parte de un grupo de alumnos que a partir de hoy y durante 9 sesiones m\u00e1s de trabajo, aprender\u00e1n a crear sus propios c\u00f3mics, a trav\u00e9s del dise\u00f1o de su propio proyecto el que podr\u00e1n compartir con otros estudiantes de tu establecimiento.\r\n\r\nTabla de contenidos:\r\n<ul>\r\n<li>Sesi\u00f3n 1: Bienvenid@s al Taller </li>\r\n<li>Sesi\u00f3n 2 y 3: Gui\u00f3n: Escritura Creativa</li>\r\n<li>Sesi\u00f3n 4 y 5: Layout: Boceteo el E-C\u00f3mic</li>\r\n<li>Sesi\u00f3n 6: R\u00f3tuls: Escritura de Textos en Bocadillos y/o Cartuchos</li>\r\n<li>Sesi\u00f3n 7: Aplicaci\u00f3n del Color en las P\u00e1ginas Dibujadas</li>\r\n<li>Sesi\u00f3n 8 y 9: Edici\u00f3n y Publicaci\u00f3n</li>\r\n</ul>",
+            "precio": 15,
+            "categoria": "C\u00f3mics",
+            "stock": 77,
+            "imagen": "static/images/13805.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "11133",
+        "fields": {
+            "id": "11133",
+            "titulo": "C\u00f3mic e Ilustraci\u00f3n 2012",
+            "autor": "Varios",
+            "sinopsis": "Los premios Injuve para la Creaci\u00f3n Joven se han consolidado a lo largo de estos a\u00f1os como un referente de la situaci\u00f3n del arte emergente en Espa\u00f1a. Por este motivo supone una gran satisfacci\u00f3n para la Direcci\u00f3n de Relaciones Culturales y Cient\u00edficas de AECID poder formar parte de este proyecto mediante la colaboraci\u00f3n con Injuve en la difusi\u00f3n de estos premios en el exterior.\r\n\r\nEl origen de esta colaboraci\u00f3n se encuentra en una mirada compartida sobre la importancia que tiene el desarrollo de las capacidades de la juventud, as\u00ed como el valor y el potencial que presentan los procesos creativos como elementos fundamentales para el desarrollo humano. El modo en el que se concreta consiste en la itinerancia de las obras premiadas a trav\u00e9s de la Red de Centros Culturales de Espa\u00f1a en el Exterior que AECID tiene distribuidos por Iberoam\u00e9rica y Guinea Ecuatorial, as\u00ed como por otros pa\u00edses del mundo a trav\u00e9s de las Oficinas Culturales de las Embajadas de Espa\u00f1a.\r\n\r\nEsta colaboraci\u00f3n con INJUVE constituye un buen ejemplo de trabajo de forma coordinada de dos instituciones en la elaboraci\u00f3n de programas para proyectar la cultura en el exterior y permite adem\u00e1s, una notable optimizaci\u00f3n de recursos.\r\n\r\nPor todo ello, quiero agradecer al Instituto de la Juventud su esfuerzo y felicitar a todos los artistas participantes, con la voluntad de que esta colaboraci\u00f3n siga progresando.",
+            "precio": 23,
+            "categoria": "C\u00f3mics",
+            "stock": 10,
+            "imagen": "static/images/11133.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "14635",
+        "fields": {
+            "id": "14635",
+            "titulo": "Git Fundamentos",
+            "autor": "Jes\u00fas Amieiro Becerra",
+            "sinopsis": "Este es el primero de una serie de libros sobre Git, un sistema de control de versiones desarrollado por Linux Torvalds en el a\u00f1o 2005 y que se ha hecho tremendamente popular gracias a servicios como GitHub y a su amplia aceptaci\u00f3n en proyectos importantes como el Kernel de Linux, Android, Ruby on Rails, Eclipse, GNOME, KDE, Qt, Perl o PostgreSQL o por empresas como Google, Facebook, Microsoft, Twitter, LinkedIn o Netflix.\r\n\r\nSi eres programador, desarrollador web, administrador de sistemas, dise\u00f1ador, ... es muy probable que en alg\u00fan momento de tu trabajo te encuentres con un proyecto en el que tengas que colaborar con otras personas usando Git. Puede que trabajes solo pero que te interese tener un seguimiento y control de tu trabajo. En estos dos casos y en muchos m\u00e1s un conocimiento m\u00e1s o menos profundo de Git te permitir\u00e1 ser mucho m\u00e1s productivo en tu trabajo y, sobre todo, evitar muchos de los problemas con los que se encuentra a menudo la gente que no trabaja con un sistema de control de versiones.\r\n\r\nSi tu \u00e1mbito de trabajo es t\u00e9cnico y a\u00fan no usas Git, cuando lleves unos meses us\u00e1ndolo te preguntar\u00e1s c\u00f3mo es posible que no lo hubieras empezado a usar antes.\r\n\r\n<strong>Aviso: Este libro est\u00e1 en versi\u00f3n alfa</strong>. Esto quiere decir que le faltan contenidos y, aunque hemos tratado de evitar cualquier tipo de error, puede que encuentres alguno. ",
+            "precio": 20,
+            "categoria": "Control de Versiones",
+            "stock": 29,
+            "imagen": "static/images/14635.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16657",
+        "fields": {
+            "id": "16657",
+            "titulo": "Dise\u00f1o de interacci\u00f3n",
+            "autor": "Eloi Maduell i Garc\u00eda & Santiago Vilanova \u00c1ngeles",
+            "sinopsis": "La explosi\u00f3n de la electr\u00f3nica de consumo iniciada en los a\u00f1os cincuenta, que ha ido en progresi\u00f3n exponencial hasta hoy en d\u00eda, ha inundado nuestras vidas de un gran n\u00famero de aparatos electr\u00f3nicos con numerosas funciones. Los primeros dispositivos electr\u00f3nicos de consumo, como las radios o los televisores, ya incorporaban, de una manera u otra, interfaces de control mediante botones y potenci\u00f3metros que facilitaban a los usuarios el manejo de los aparatos.\r\n\r\nLa revoluci\u00f3n digital iniciada en los a\u00f1os ochenta representa un paso m\u00e1s en la sofisticaci\u00f3n y las posibilidades de estos artefactos electr\u00f3nicos, que actualmente se han convertido en elementos imprescindibles de nuestras actividades cotidianas.\r\n\r\nLa gran proliferaci\u00f3n de ordenadores, videoconsolas, televisores, calculadoras, tel\u00e9fonos m\u00f3viles, teclados electr\u00f3nicos, etc., y la creciente incorporaci\u00f3n de funcionalidades a estos aparatos han obligado a los dise\u00f1adores y a los fabricantes a hacer estudios orientados a la usabilidad de los productos para facilitar a los usuarios la interacci\u00f3n con los dispositivos.\r\n\r\nEn este contexto emerge la disciplina del dise\u00f1o de interacci\u00f3n, que tiene el objetivo de hacer m\u00e1s amigable el uso de los aparatos.\r\n\r\nContenido: \r\n<ul>\r\n<li>Teclados</li>\r\n<li>Dispositivos apuntadores</li>\r\n<li>An\u00e1lisis de audio</li>\r\n<li>Dispositivos electr\u00f3nicos</li>\r\n<li>Visi\u00f3n artificial</li>\r\n<li>Comunicaci\u00f3n y tratamiento de datos</li>\r\n</ul>",
+            "precio": 22,
+            "categoria": "Dise\u00f1o / 3D",
+            "stock": 30,
+            "imagen": "static/images/16657.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16997",
+        "fields": {
+            "id": "16997",
+            "titulo": "Las formas de la educaci\u00f3n",
+            "autor": "Pablo Campos Calvo-Sotelo & Laura Luce\u00f1o Casals",
+            "sinopsis": "La Educaci\u00f3n posee forma. Esta cualidad, inherente a los procesos formativos del ser humano, puede constatarse a lo largo de los siglos. El presente texto desarrolla un conjunto de argumentos te\u00f3ricos s\u00f3lidos, orientados a dos objetivos b\u00e1sicos: Investigar la conexi\u00f3n hist\u00f3rica entre las dimensiones arquitect\u00f3nica y educativa, en clave de innovaci\u00f3n y creatividad. Proponer un elenco de estrategias creativas que puedan ser \u00fatiles para que las universidades, cuando planifiquen sus implantaciones urban\u00edstico-arquitect\u00f3nicas. As\u00ed, una de las intenciones subyacentes es establecer sinergias entre tres aspectos: los expresados argumentos te\u00f3ricos, las referencias proyectuales, y el correspondiente a las actividades pedag\u00f3gicas desarrolladas dentro de disciplinas \u00edntimamente relacionadas con la mencionada creatividad. Dichas sinergias convergen en el presente trabajo, con el fin de impulsar un corpus tem\u00e1tico que, combinando la referida base conceptual con la siempre ilustrativa praxis (tanto educativa como arquitect\u00f3nica), sirva como herramienta v\u00e1lida para inspirar procesos de recualificaci\u00f3n pedag\u00f3gica y espacial en instituciones de Educaci\u00f3n Suprior. Bajo una perspectiva global, este texto es el resultado de acciones de innovaci\u00f3n llevadas a cabo por sus dos autores en los \u00faltimos a\u00f1os, combinando iniciativas de investigaci\u00f3n y ense\u00f1anza en las \u00e1reas de conocimiento de Arquitectura y Moda, que tradicionalmente han compartido un conjunto de rasgos compositivos en sus dise\u00f1os. Siguiendo un impulso global dirigido a fomentar la creatividad, fueron realizadas en la Escuela Polit\u00e9cnica Superior (USPCEU), y en el Centro Superior de Dise\u00f1o de Moda de Madrid (UPM). \r\n\r\nEn a\u00f1adidura, se analiza la relaci\u00f3n existente en dichas actividades de innovaci\u00f3n entre los aspectos educativos y los espaciales. En consecuencia, este trabajo se caracteriza por su perfil interdisciplinar, que puede promover futuros proyectos de Ense\u00f1anza/Aprendizaje creativos en diferentes \u00e1reas de conocimiento. La intenci\u00f3n general es aportar a las universidades experiencias innovadoras que puedan ser de ayuda a todas ellas para promover optimizaciones consistentes de su misi\u00f3n, afectando tanto a la dimensi\u00f3n educativa como a su forma urban\u00edstico-arquitect\u00f3nica.",
+            "precio": 26,
+            "categoria": "Educaci\u00f3n",
+            "stock": 79,
+            "imagen": "static/images/16997.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16931",
+        "fields": {
+            "id": "16931",
+            "titulo": "Introducci\u00f3n a los discursos acad\u00e9micos y cient\u00edficos",
+            "autor": "Varios",
+            "sinopsis": "Este texto es en principio una introducci\u00f3n a los discursos circulantes en la Universidad y a las herramientas b\u00e1sicas para su lectura, su an\u00e1lisis y producci\u00f3n.\r\nEl objetivo central no es te\u00f3rico sino did\u00e1ctico. El cuadernillo est\u00e1 dirigido a las estudiantes y los estudiantes ingresantes a la UARG-UNPA con el prop\u00f3sito de iniciarlos en el uso de los discursos acad\u00e9micos y cient\u00edficos adem\u00e1s del objetivo transversal de echar luz sobre la cuesti\u00f3n de la funci\u00f3n social de los discursos en los diversos \u00e1mbitos que, como seres sociales, nos toca vivir.\r\n\r\nPoder, educaci\u00f3n, acci\u00f3n comunicativa, rol social estar\u00e1n integrados al estudio de los discursos tal como circulan en nuestra sociedad, especialmente en los \u00e1mbitos acad\u00e9micos y cient\u00edficos.\r\nDesarrollaremos el tema del An\u00e1lisis del Discurso como t\u00e9cnica y como \u00e1mbito del conocimiento s\u00f3lo en el cap\u00edtulo V y de manera sumaria.",
+            "precio": 26,
+            "categoria": "Educaci\u00f3n",
+            "stock": 93,
+            "imagen": "static/images/16931.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16903",
+        "fields": {
+            "id": "16903",
+            "titulo": "Autocruzados",
+            "autor": "Varios",
+            "sinopsis": "Autocruzados es una producci\u00f3n de ficci\u00f3n esccrita del Laboratorio de Ideas y Textos Inteligentes Narrativos (LITIN). \r\n\r\nDoce escritores j\u00f3venes, estudiantes de Periodismo de la Universidad de La Plata, autoficcionaron sus infancias y sus presentes. Los textos fueron discutidos y corregidos colaborativamente. El resultado es un continuo significativo sobre un pa\u00eds y una \u00e9poca marcada por un estallido social insoslayable: diciembre de 2001. \r\n\r\nAutocruzados es producto de una experimentaci\u00f3n promovida por los directores del LITIN que incluy\u00f3 la posibilidad de que cada autor escribiera su versi\u00f3n de una escena del relato de otro participante. De all\u00ed el nombre del libro: al recorrer sus p\u00e1ginas el lector se encontrar\u00e1 con una serie de autoficciones -g\u00e9nero literario a caballo entre la biograf\u00eda y la ficci\u00f3n- cruzadas por una voz narrativa que es tan ajena como generacional, y que da cuenta de distintos rincones geogr\u00e1ficos de nuestro pa\u00eds, porque de distintos lugares son los autores que se sentaron a recordar y recrear los primeros y los m\u00e1s recientes a\u00f1os de su vida.",
+            "precio": 15,
+            "categoria": "Ensayos / Novelas",
+            "stock": 6,
+            "imagen": "static/images/16903.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16899",
+        "fields": {
+            "id": "16899",
+            "titulo": "El hombre que plantaba \u00e1rboles",
+            "autor": "Jean Giono",
+            "sinopsis": "El hombre que plantaba \u00e1rboles\u00bb (en franc\u00e9s: L'homme qui plantait des arbres) es un cuento aleg\u00f3rico del autor franc\u00e9s Jean Giono,1 publicado en 1953. Cuenta la historia de los esfuerzos de un pastor para convertir un desolado valle en las estribaciones de los Alpes, cerca de la Provenza, en un bosque a lo largo de la primera mitad del siglo XX.\r\n\r\nUna par\u00e1bola sobre la relaci\u00f3n entre el hombre y la naturaleza, una historia ejemplar sobre la capacidad humana para alcanzar cualquier objetivo que se plantee. Durante uno de sus paseos por la Provenza, el escritor franc\u00e9s Jean Giono conoci\u00f3 a una persona inolvidable: un pastor solitario y apacible, de pocas palabras, que disfrutaba de una vida tranquila y reposada, entre ovejas y perros. Sin embargo, bajo la sencillez y la soledad en la que vive, este hombre est\u00e1 cumpliendo una inmensa labor, una acci\u00f3n que habr\u00e1 de cambiar la faz de su tierra y la vida de las generaciones futuras.\r\n\r\n",
+            "precio": 27,
+            "categoria": "Ensayos / Novelas",
+            "stock": 15,
+            "imagen": "static/images/16899.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16404",
+        "fields": {
+            "id": "16404",
+            "titulo": "Certamen literario para el alumnado Ana M\u00aa Aparicio Pardo relatos premiados",
+            "autor": "Julia Vicente Fresneda (Coord.)",
+            "sinopsis": "El cuento es el g\u00e9nero literario primigenio, el m\u00e1s espont\u00e1neo y natural, transmitido oralmente generaci\u00f3n tras generaci\u00f3n a lo largo de los siglos. El cuento. Literatura libre, fresca, sin reglas, convencionalismos o ataduras. El cazador o la muchacha asombrando a la tribu en interior de la caverna, incluso inventando palabras nuevas que el clan debi\u00f3 de adoptar a partir de ese instante, porque el lenguaje estaba naciendo en aquellos tiempos y hab\u00eda mucho que contar. Cuentos impregnados de sabidur\u00eda que se narraban en el \u00c1gora de Atenas. Cuentos junto a las fogatas encendidas por las legiones de C\u00e9sar. Cuentos sagrados de un joven y sabio rab\u00ed a orillas del Mar de Galilea (que alguien les dio el nombre de par\u00e1bolas). Cuentos de juglares en una plaza de Toledo o de Hita all\u00e1 por la Edad Media. Cuentos en los desiertos de Arabia, referidos durante una m\u00e1gica noche que equivali\u00f3 a mil y una de nuestras noches. Cuentos que un faquir de Calcuta dedic\u00f3 a la Luna Nueva. Alucinados cuentos en la inmensidad de la Biblioteca de Buenos Aires, donde un hombre imagin\u00f3 mundos tan fascinantes como s\u00f3lo podr\u00eda verlos un ciego. La madre que duerme a su hijo cont\u00e1ndole las aventuras de Pulgarcito o las penalidades de Cenicienta. Palabras, palabras, palabras, dijo Hamlet. Cuentos. Nada m\u00e1s que cuentos. Nada menos que cuentos.\r\n\r\nEl Certamen \u201cAna Mar\u00eda Aparicio\u201d naci\u00f3 para rendir un sentido homenaje de cari\u00f1o y respeto a una gran profesora tempranamente fallecida. No puede imaginarse mejor homenaje a quien dedic\u00f3 su vida a la docencia que premiar en su nombre la creatividad de los j\u00f3venes y fomentar la escritura de peque\u00f1as grandes historias. Grand\u00edsimas a pesar de su brevedad, como tendr\u00e1 oportunidad de comprobar el discreto lector cuando lea los relatos ganadores, recopilados en ese volumen donde se recogen los cuentos de varias ediciones del certamen. La mayor\u00eda son obras creadas por j\u00f3venes, por adolescentes, acaso las voces m\u00e1s libres y aut\u00e9nticas de todas a la hora de reunir palabras para contar. Cuentos. Fant\u00e1sticos o realistas. Rom\u00e1nticos. De vampiros o de ciencia ficci\u00f3n. Que tratan de los horrores de la guerra y la fragilidad de los derechos humanos. Narraciones detectivescas, de aventuras o de ambiente cotidiano.",
+            "precio": 9,
+            "categoria": "Educaci\u00f3n",
+            "stock": 76,
+            "imagen": "static/images/16404.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15423",
+        "fields": {
+            "id": "15423",
+            "titulo": "Introducci\u00f3n a la filosof\u00eda y a la argumentaci\u00f3n filos\u00f3fica",
+            "autor": "Varios",
+            "sinopsis": "Recopilaci\u00f3n de trabajos que versan sobre distintos aspectos de la pr\u00e1ctica filos\u00f3fica con el objetivo de introducir en la materia a los estudiantes del \u00e1rea.\r\n\r\nTabla de contenidos:\r\n\r\n<ul>\r\n<li>La Filosof\u00eda medieval y el tr\u00e1nsito hacia la modernidad</li>\r\n<li>La subjetividad cartesiana</li>\r\n<li>La noci\u00f3n de \u201cidentidad personal\u201d en el Tratado de la Naturaleza Humana de David Hume</li>\r\n<li>La teor\u00eda del conocimiento en Kant</li>\r\n<li>G. W. F. Hegel. El idealismo absoluto</li>\r\n<li>Marx, fuera de sus l\u00edmites</li>\r\n<li>Una aproximaci\u00f3n a la filosof\u00eda de Nietzsche</li>\r\n<li>Husserl y la fenomenolog\u00eda</li>\r\n<li>Subjetividad, corporalidad y percepci\u00f3n en la filosof\u00eda de Merleau-Ponty</li>\r\n<li>Existencialismo, subjetividad y humanismo</li>\r\n<li>La subjetividad como normalidad, el poder como productor y las pr\u00e1cticas sociales de control</li>\r\n<li>An\u00e1lisis y reconstrucci\u00f3n de argumentos</li>\r\n<li>Herramientas para la evaluaci\u00f3n de argumentos</li>\r\n<li>Argumentos filos\u00f3ficos</li>\r\n<li>El ensayo argumentativo</li>\r\n</ul>",
+            "precio": 16,
+            "categoria": "Filosof\u00eda",
+            "stock": 58,
+            "imagen": "static/images/15423.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "14010",
+        "fields": {
+            "id": "14010",
+            "titulo": "Casa Accesible: Pautas b\u00e1sicas para aplicar en el dise\u00f1o de viviendas",
+            "autor": "Mariela Fern\u00e1ndez-Bermejo",
+            "sinopsis": "La elaboraci\u00f3n de este libro nace con el objetivo de ofrecer una serie de buenas pr\u00e1cticas para el dise\u00f1o, construcci\u00f3n o reforma de las distintas dependencias de las que suele constar una vivienda y su entorno, de forma que cualquier usuario o profesional pueda tener una referencia b\u00e1sica para el dise\u00f1o de viviendas accesibles y vers\u00e1tiles, adem\u00e1s de conocer las ventajas que se consiguen aplicando las correctas medidas y dimensiones en materia de Accesibilidad Universal, Usabilidad y Dise\u00f1o Para Todos desde los principios del dise\u00f1o de una vivienda o edificio de viviendas.\r\n\r\nSe debe destacar que para la elaboraci\u00f3n de este libro se ha realizado un profundo estudio de la normativa vigente en materia de vivienda y accesibilidad en Espa\u00f1a,teniendo en cuenta tanto normativa a nivel nacional como el C\u00f3digo T\u00e9cnico de la Edificaci\u00f3n, as\u00ed como referencias de diferentes normativas auton\u00f3micas que nos parecen de alta calidad. Tambi\u00e9n se han estudiado normativas y recomendaciones internacionales como las que se encuentran en la Americans with Disabilities Act (ADA).\r\n\r\nPor este motivo, hay que resaltar que todos los par\u00e1metros expuestos en este libro deben siempre ser contrastados con la norma vigente en cada Comunidad Aut\u00f3noma, Estado o Regi\u00f3n, que en algunos casos podr\u00eda resultar algo diferente. Si bien es cierto, se ha comprobado en varios testeos previos que en la mayor\u00eda de los casos aplicando estos par\u00e1metros, se cumplen casi todas las normativas.",
+            "precio": 21,
+            "categoria": "Geograf\u00eda / Turismo",
+            "stock": 93,
+            "imagen": "static/images/14010.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "17054",
+        "fields": {
+            "id": "17054",
+            "titulo": "Formas del pasado : Conciencia hist\u00f3rica, historiograf\u00edas, memorias",
+            "autor": "Varios",
+            "sinopsis": "El presente libro se concentra en lo que se considera su principal aporte colectivo: adentrarse en los debates acerca de la conciencia hist\u00f3rica como actividad pr\u00e1ctica, como conciencia en acto. Concebirla de este modo y, por lo tanto, susceptible de ser indagada emp\u00edricamente, es una de las principales conclusiones a que llev\u00f3 la reflexi\u00f3n colectiva y, al mismo tiempo, un hilo conductor de los distintos trabajos que componen el volumen. \r\n\r\nEl libro en su conjunto investiga la conciencia hist\u00f3rica en acto desde distintos recortes tem\u00e1ticos: la producci\u00f3n historiogr\u00e1fica como espacio de formulaci\u00f3n de conciencia hist\u00f3rica en que distintas nociones de estructura, sujeto y proceso interact\u00faan de manera expl\u00edcita; debates intelectuales y pr\u00e1cticas culturales en los que se ponen en juego formas diversas de articular pasado, presente y futuro; las controversias en torno a la memoria social del pasado reciente de radicalizaci\u00f3n pol\u00edtica y represi\u00f3n dictatorial. \r\n\r\nEn conjunto, se pone en foco la compleja conexi\u00f3n entre historia y filosof\u00eda para leer desde all\u00ed la l\u00f3gica de ciertos cambios de perspectiva en el tratamiento del conocimiento hist\u00f3rico que construyen los sujetos. Por otra parte, se privilegia la mirada sobre las formas que adquiere el pasado en la sociedad argentina, analizando ciertos momentos que resultan claves en la construcci\u00f3n de una conciencia de naci\u00f3n; intervenciones cuestionadoras de los sentidos hegem\u00f3nicos de sujeto, proceso hist\u00f3rico e identidad nacional; debates y controversias, en fin, como espacios y pr\u00e1cticas de reescritura de la historia nacional.",
+            "precio": 18,
+            "categoria": "Historia",
+            "stock": 33,
+            "imagen": "static/images/17054.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16890",
+        "fields": {
+            "id": "16890",
+            "titulo": "Antropolog\u00eda m\u00e9dica en la Europa meridional",
+            "autor": "Jos\u00e9 M.\u00aa Uribe Oyarbide & Enrique Perdiguero-Gil (Eds.)",
+            "sinopsis": "Este texto es fruto del simposio \u00abDe la medicina popular a la atenci\u00f3n primaria: el pluralismo asistencial y la antropolog\u00eda m\u00e9dica espa\u00f1ola (1980\u20132011)\u00bb desarrollado en Le\u00f3n en el marco del XIII Congreso de Antropolog\u00eda de la Federaci\u00f3n de Asociaciones de Antropolog\u00eda del Estado Espa\u00f1ol. All\u00ed se trat\u00f3 de hacer un repaso y balance de una primera \u00e9poca de la antropolog\u00eda m\u00e9dica espa\u00f1ola, aquella que va del texto cuasi fundacional de M. Kenny y J. De Miguel La antropolog\u00eda m\u00e9dica en Espa\u00f1a hasta la entrada en el siglo xxi. Estos treinta a\u00f1os han permitido que pasemos de un abordaje b\u00e1sicamente descriptivo y enumerativo sobre otras formas de enfermar, otras visiones del curar y otros espacios de sanar, a una mirada cr\u00edtica y atenta a la pluralidad de recursos que tenemos a nuestro alrededor, y a las implicaciones t\u00e9cnicas, ideol\u00f3gicas y normalizadoras de dichos recursos.\r\n\r\nLos contenidos de dicho simposio y las colaboraciones que de \u00e9l surgieron y que aqu\u00ed incluimos se pueden articular en torno a tres ejes que, jugando con el motto del congreso, re\ufb02ejan \u00abMemorias\u00bb, \u00abLugares\u00bb y \u00abTiempos\u00bb.",
+            "precio": 17,
+            "categoria": "Ciencia",
+            "stock": 21,
+            "imagen": "static/images/16890.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16888",
+        "fields": {
+            "id": "16888",
+            "titulo": "Aspectos de la historia del Imperio Romano",
+            "autor": "Diego Santos (Ed.)",
+            "sinopsis": "Este libro re\u00fane trabajos sobre distintos aspectos de la historia del Imperio Romano desde su surgimiento hasta su crisis terminal en Occidente. La sociedad romana es abordada desde puntos de vista pol\u00edticos, econ\u00f3micos y sociales, en la medida en que estos pueden ser separados. Su publicaci\u00f3n busca acercar al mundo hispanoparlante estudios actualizados acerca de este per\u00edodo hist\u00f3rico para ser utilizados en la ense\u00f1anza de grado de la educaci\u00f3n superior y universitaria. Esperamos que impulse la curiosidad de los alumnos sobre esta \u00e9poca, al mostrar su complejidad y lo que podemos aprender de ella para la comprensi\u00f3n de la sociedad en la que vivimos.\r\n\r\nNathan Rosenstein y Robert Morstein-Marx analizan la transformaci\u00f3n de la rep\u00fablica romana de una organizaci\u00f3n pol\u00edtica basada en un conjunto de magistraturas e instituciones como los c\u00f3nsules, los tribunos de la plebe, el senado y los comicios, a una res publica encabezada por un Princeps. Parten de las autorizadas visiones de Maquiavelo y Montesquieu \u2014las instituciones creadas para gobernar una ciudad-Estado eran inconsistentes con la administraci\u00f3n de un gran imperio\u2014 para elaborar su propia hip\u00f3tesis de por qu\u00e9 se produjo este cambio. Ellos prestan atenci\u00f3n al colapso moral que se\u00f1alan las fuentes antiguas y llegan a la conclusi\u00f3n de que la concentraci\u00f3n de la riqueza producto de las nuevas oportunidades que implic\u00f3 la conquista del mundo mediterr\u00e1neo cre\u00f3 una mayor competencia dentro de la \u00e9lite, que termin\u00f3 por quebrar su cohesi\u00f3n interna como grupo.",
+            "precio": 30,
+            "categoria": "Historia",
+            "stock": 39,
+            "imagen": "static/images/16888.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16703",
+        "fields": {
+            "id": "16703",
+            "titulo": "El tablero medieval de c\u00e1lculo y las operaciones con n\u00fameros romanos: estudio hist\u00f3rico y pedag\u00f3gico",
+            "autor": "Jos\u00e9 Mar\u00eda N\u00fa\u00f1ez",
+            "sinopsis": "Se describe el fundamento del tablero medieval de c\u00e1lculo y su uso para la realizaci\u00f3n de operaciones aritm\u00e9ticas. Se muestra la sencilla operativa de este instrumento y c\u00f3mo el sistema se adecua perfectamente a la escritura utilizando n\u00fameros romanos. La descripci\u00f3n se complementa con diversas consideraciones tanto hist\u00f3ricas como pedag\u00f3gicas. As\u00ed, se analizan sus antecedentes, y puesto que el tablero de calcular es la evoluci\u00f3n del \u00e1baco romano, el trabajo comienza con un breve estudio de este instrumento de c\u00e1lculo basado exclusivamente en los datos arqueol\u00f3gicos y documentales conservados. \r\n\r\nTambi\u00e9n, y a partir del an\u00e1lisis de la utilizaci\u00f3n del tablero, ofrecemos una visi\u00f3n m\u00e1s completa de los factores que explican la resistencia ofrecida por la sociedad europea a la introducci\u00f3n del sistema de numeraci\u00f3n indo ar\u00e1bigo y su metodolog\u00eda algor\u00edtmica. \r\n\r\nFinalmente, se plantea un estudio comparativo entre la metodolog\u00eda del tablero y la algor\u00edtmica tradicional mostr\u00e1ndose las semejanzas estructurales que subyacen entre ambas metodolog\u00edas de c\u00e1lculo. ",
+            "precio": 24,
+            "categoria": "Historia",
+            "stock": 66,
+            "imagen": "static/images/16703.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16636",
+        "fields": {
+            "id": "16636",
+            "titulo": "Potugu\u00e9s: Serie para la ense\u00f1anza en el modelo 1 a 1",
+            "autor": "Germ\u00e1n E. Correa & Marco A. Rodr\u00edguez",
+            "sinopsis": "Los cuadernillos de la Serie para la ense\u00f1anza en el modelo 1 a 1 les presentan a los docentes un conjunto de reflexiones, sugerencias y secuencias did\u00e1cticas para trabajar los contenidos curriculares de las diferentes \u00e1reas.\r\n\r\nComo es habitual en este tipo de materiales, se trata de propuestas que podr\u00e1n implementarse con las adecuaciones que cada contexto requiera y con actividades que los docentes podr\u00e1n dise\u00f1ar para el aula 1 a 1 a partir de los programas, los dispositivos y las aplicaciones disponibles tanto en las netbooks como en el portal educ.ar.\r\n\r\nEn el caso de las lenguas extranjeras, de acuerdo con el enfoque que se viene construyendo en el \u00e1rea y subyace a los N\u00facleos de Aprendizajes Prioritarios, la ense\u00f1anza de las diferentes lenguas, integrada al conjunto de saberes que circulan en la escuela, apunta a la educaci\u00f3n ling\u00fc\u00edstica \u2013en el acceso a la cultura letrada, la reflexi\u00f3n sobre las lenguas y el lenguaje y el reconocimiento y la valoraci\u00f3n de la diversidad\u2013 y a los procesos de construcci\u00f3n de la identidad sociocultural de los adolescentes y j\u00f3venes de nuestro pa\u00eds.\r\n\r\nDesde esta perspectiva, las sugerencias para el aula 1 a 1 de franc\u00e9s, italiano y portugu\u00e9s de esta Serie presentan secuencias did\u00e1cticas relacionadas con saberes ling\u00fc\u00edsticos, metaling\u00fc\u00edsticos e interculturales a trav\u00e9s de espacios para la oralidad, la lectura o la escritura, instancias para la comprensi\u00f3n de funcionamientos ling\u00fc\u00edsticos espec\u00edficos y para la percepci\u00f3n de semejanzas, diferencias u otras relaciones entre estas lenguas y el espa\u00f1ol y propuestas que orientan hacia un di\u00e1logo intercultural entre las culturas ajenas y las propias.",
+            "precio": 17,
+            "categoria": "Educaci\u00f3n",
+            "stock": 63,
+            "imagen": "static/images/16636.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15862",
+        "fields": {
+            "id": "15862",
+            "titulo": "Acerca de la Did\u00e1ctica e Investigaci\u00f3n en Lengua Extranjera",
+            "autor": "Varios",
+            "sinopsis": "En el marco de las reuniones acad\u00e9micas organizadas por el Departamento de Lenguas con el fin de mejorar la calidad de la ense\u00f1anza de Lenguas Extranjeras, los d\u00edas 21 y 22 de noviembre de 2012 se realizaron las TERCERAS JORNADAS DE INVESTIGACI\u00d3N Y CUARTAS JORNADAS DE PRODUCCI\u00d3N DEL DEPARTAMENTO DE LENGUAS. \r\n\r\nEsta publicaci\u00f3n es el resultado de un espacio que pretendi\u00f3 y sin dudas logro, alentar la difusi\u00f3n y debate acerca de experiencias did\u00e1cticas innovadoras, pr\u00e1cticas de investigaci\u00f3n y resultados de las mismas desarrolladas en nuestro contexto. Durante el transcurso de las Jornadas se generaron importantes momentos de intercambio y discusi\u00f3n de problem\u00e1ticas diversas. \r\n\r\nLas ponencias compartidas por los disertantes \u2013 docentes, investigadores, becarios y tesistas \u2013 se enmarcaron en diferentes tem\u00e1ticas relacionadas con las \u00e1reas de Ling\u00fc\u00edstica, Lengua, Literatura, Cultura y Formaci\u00f3n Docente entre otras y permitieron conocer diferentes posicionamientos acerca de COMO pensar la investigaci\u00f3n y la did\u00e1ctica en Lenguas Extranjeras. \r\n\r\nEl presente compendio de algunos de los trabajos presentados persigue el fin de afianzar las redes de intercambio de experiencias, promover el estudio y la investigaci\u00f3n y propiciar el perfeccionamiento de la formaci\u00f3n docente a la luz del nuevo perfil del docente de Lenguas Extranjeras en el contexto nacional y mundial.",
+            "precio": 22,
+            "categoria": "Educaci\u00f3n",
+            "stock": 54,
+            "imagen": "static/images/15862.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15619",
+        "fields": {
+            "id": "15619",
+            "titulo": "La Traductolog\u00eda: Miradas para comprender su complejidad",
+            "autor": "Beatriz E. Cagnolati (Comp.)",
+            "sinopsis": "El libro que presentamos es el producto de los intercambios de ideas que fuimos realizando durante el desarrollo del proyecto de investigaci\u00f3n Estudio cr\u00edtico de modelos y enfoques traductol\u00f3gicos, originados en la segunda mitad del siglo XX. La evoluci\u00f3n de los estudios sobre la traducci\u00f3n que han ido ganando autonom\u00eda desde la mitad del siglo pasado ha dado origen a la nueva disciplina Traductolog\u00eda, de impronta multi e interdisciplinaria, puesto que, por un lado se nutre de los m\u00e1s diversos enfoques ling\u00fc\u00edsticos, textuales, discursivos, comunicativos, semi\u00f3ticos, pragm\u00e1ticos, cognitivos, culturales, y por el otro, ha ido construyendo un discurso mediante la resignificaci\u00f3n de conceptos provenientes de los enfoques se\u00f1alados y la creaci\u00f3n de otros. \r\n\r\nLos contenidos que exponemos est\u00e1n vinculados con el recorrido, los vaivenes y avances de las reflexiones sobre la traducci\u00f3n y, al mismo tiempo, con el tratamiento de los temas que, a nuestro entender, son indispensables para comprender c\u00f3mo se ha ido desarrollando la Traductolog\u00eda. De all\u00ed que este libro est\u00e1 pensado especialmente para los estudiantes avanzados de traducci\u00f3n, como as\u00ed tambi\u00e9n para los formadores de traductores puesto que la informaci\u00f3n que se brinda en cada cap\u00edtulo est\u00e1 acompa\u00f1ada de una bibliograf\u00eda que fue materia de discusi\u00f3n a lo largo del proyecto, pero que a su vez fue incrementada y actualizada por cada autora, seg\u00fan el tema espec\u00edfico tratado.",
+            "precio": 24,
+            "categoria": "Idiomas",
+            "stock": 40,
+            "imagen": "static/images/15619.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15578",
+        "fields": {
+            "id": "15578",
+            "titulo": "El espa\u00f1ol y el japon\u00e9s",
+            "autor": "Noritaka Fukushima",
+            "sinopsis": "El presente libro constituye un compendio de los trabajos m\u00e1s relevantes sobre cuestiones relacionadas con la lengua espa\u00f1ola y japonesa. Dichas lenguas pertenecen a familias ling\u00fc\u00edsticas totalmente ajenas y, al parecer, poseen estructuras profundamente distintas, incluso incompatibles. No obstante, es precisamente esta aparente brecha la que ofrece nuevas perspectivas que posibilitan una mejor caracterizaci\u00f3n del japon\u00e9s y el espa\u00f1ol y que, en consecuencia, conducir\u00e1 a un mayor entendimiento de lo que es realmente el lenguaje humano. \r\n\r\nEste libro est\u00e1 compuesto por dos secciones principales. La primera re\u00fane cinco cap\u00edtulos sobre el modo y la modalidad. En los tres primeros, hemos trazado la \u00f3rbita de los descubrimientos realizados por fil\u00f3logos y ling\u00fcistas sobre la funci\u00f3n sint\u00e1ctica, sem\u00e1ntica y pragm\u00e1tica de los verbos y la oraci\u00f3n. En los dos cap\u00edtulos siguientes ofrecemos dos humildes contribuciones basadas en las propuestas resumidas en los cap\u00edtulos anteriores: un estudio sobre variaci\u00f3n geogr\u00e1fica y otro de ling\u00fc\u00edstica aplicada. \r\n\r\nLa segunda secci\u00f3n abarca tres cap\u00edtulos sobre el contraste de distintos aspectos del espa\u00f1ol y el japon\u00e9s. El primero analiza la funci\u00f3n informativa de las oraciones en espa\u00f1ol, y el segundo se enfoca en la expresividad pragm\u00e1tica de cierto tipo de oraciones en la misma lengua. En ambos cap\u00edtulos, el japon\u00e9s sirve como una herramienta para profundizar en estos temas. Finalmente, el \u00faltimo cap\u00edtulo aborda cuestiones relacionadas con la traducci\u00f3n japon\u00e9s-espa\u00f1ol.",
+            "precio": 27,
+            "categoria": "Idiomas",
+            "stock": 70,
+            "imagen": "static/images/15578.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16018",
+        "fields": {
+            "id": "16018",
+            "titulo": "M\u00e9todos Estad\u00edsticos para Econom\u00eda y Empresa",
+            "autor": "Ana Jes\u00fas L\u00f3pez Men\u00e9ndez & Rigoberto P\u00e9rez",
+            "sinopsis": "La informaci\u00f3n econ\u00f3mica forma parte de nuestra realidad cotidiana y afecta a nuestras vidas. Estad\u00edsticas como el Indice de Precios de Consumo (IPC), la tasa de paro o los \u00edndices burs\u00e1tiles son referencias habituales en los medios de comunicaci\u00f3n, por lo que resulta imprescindible conocer su significado y dominar las t\u00e9cnicas estad\u00edsticas necesarias para su correcta utilizaci\u00f3n. \r\n\r\nHace aproximadamente un a\u00f1o, con motivo de la celebraci\u00f3n del primer D\u00eda Mundial de la Estad\u00edstica (20-10-2010), la declaraci\u00f3n institucional de Naciones Unidas destacaba la importancia de las estad\u00edsticas como herramienta para el desarrollo econ\u00f3mico y social, y su trascendente papel en la adopci\u00f3n de decisiones gubernamentales, empresariales y personales en una sociedad moderna. \r\n\r\nConvencidos de la importancia de la Estad\u00edstica, presentamos ahora este texto, cuyo antecedente es el manual An\u00e1lisis de datos econ\u00f3micos II- M\u00e9todos inferenciales publicado en 1997 por Ediciones Pir\u00e1mide y actualmente descatalogado. Nuestro objetivo al elaborar M\u00e9todos estad\u00edsticos para Econom\u00eda y Empresa es contribuir a la difusi\u00f3n de las t\u00e9cnicas estad\u00edsticas, animados por nuestras experiencias previas, los comentarios de nuestros colegas universitarios y las posibilidades que ofrecen las nuevas tecnolog\u00edas para la elaboraci\u00f3n de un manual digital y su difusi\u00f3n a trav\u00e9s de la Red.",
+            "precio": 14,
+            "categoria": "Marketing / Business",
+            "stock": 28,
+            "imagen": "static/images/16018.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15812",
+        "fields": {
+            "id": "15812",
+            "titulo": "T\u00e9cnicas de an\u00e1lisis de datos para la empresa",
+            "autor": "Ivan Soler-Ramos & Joan Torrent-Sellens",
+            "sinopsis": "Desde la empresa m\u00e1s peque\u00f1a hasta la m\u00e1s grande, todas precisan datos y todas generan datos. La generaci\u00f3n de datos y su correcta interpretaci\u00f3n y an\u00e1lisis son esenciales para producir el valor de la empresa. Conocer el entorno y los mercados en los que se ubica la actividad empresarial, interpretar sus cambios y prever el futuro, y analizar el proceso interno de generaci\u00f3n de valor de la empresa son algunos de los ejemplos en los que el an\u00e1lisis de datos puede ser muy \u00fatil. \r\n\r\nDe hecho, para que una empresa funcione correctamente en el mercado es esencial que efect\u00fae una buena toma de decisiones. Esta depende de m\u00faltiples cuestiones, pero en este curso nos centraremos en una de ellas realmente importante: el papel de los datos en la toma de decisiones. \r\n\r\nLas decisiones, para ser buenas, se deben guiar por un conocimiento lo m\u00e1s completo posible de aquello que se ha de decidir. Y la informaci\u00f3n, la buena informaci\u00f3n, es esencial para lograr el conocimiento que nos conduce hacia una correcta toma de decisiones. A la vez, una de las mejores maneras de obtener una buena informaci\u00f3n es realizar un an\u00e1lisis de datos cuidadoso.",
+            "precio": 28,
+            "categoria": "Ciencia",
+            "stock": 13,
+            "imagen": "static/images/15812.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16675",
+        "fields": {
+            "id": "16675",
+            "titulo": "An\u00edmate",
+            "autor": "Varios",
+            "sinopsis": "Saca fotos, edita, filma y... \u00a1hazte la pel\u00edcula!\r\n\r\n<ul>\r\n<li>Entrevista: Gabriel Rud, La experimentaci\u00f3n como premisa</li>\r\n<li>Carolina Cappa, una apasionada</li>\r\n<li>Experiment\u00e1 con la t\u00e9cnica de stop motion</li>\r\n<li>\u00bfC\u00f3mo hacer un video?</li>\r\n</ul>",
+            "precio": 25,
+            "categoria": "Educaci\u00f3n",
+            "stock": 51,
+            "imagen": "static/images/16675.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16192",
+        "fields": {
+            "id": "16192",
+            "titulo": "An\u00e1lisis matem\u00e1tico del cancionero popular vasco",
+            "autor": "I\u00f1aki N\u00fa\u00f1ez",
+            "sinopsis": "La escasez de estudios y actividades de car\u00e1cter cient\u00edfico relacionados con el mundo de la m\u00fasica hace m\u00e1s atrayentes las publicaciones destinadas a llenar el vac\u00edo que existe en Espa\u00f1a dentro de este campo. Es el caso del trabajo realizado por I\u00f1aki N\u00fa\u00f1ez en su libro An\u00e1lisis del Cancionero Popular Vasco de R. M. Azkue. \r\n\r\nLa simple lectura del \u00edndice ya hace pensar en el inter\u00e9s del ensayo que el autor presenta, sobre todo al comprobar la pobre bibliograf\u00eda de que disponemos a la hora de analizar con objetividad la m\u00fasica popular. \r\n\r\nA trav\u00e9s de las p\u00e1ginas del libro vamos encontrando las claves necesarias para comprender, adem\u00e1s de la m\u00fasica sobre la que el autor desarrolla su estudio, esa otra a la que denominamos culta. \r\n\r\nI\u00f1aki N\u00fa\u00f1ez se plantea el trabajo con un gran rigor, que le lleva a aplicar t\u00e9rminos procedentes de la Teor\u00eda de la Informaci\u00f3n y a profundizar en conceptos est\u00e9ticos a trav\u00e9s de su matematizaci\u00f3n. Gracias a ello podemos comprobar de manera clara no s\u00f3lo el contenido estructural que subyace en el Cancionero Vasco, sino tambi\u00e9n aspectos referentes a valores formales, hist\u00f3ricos, y metaf\u00edsicos de la m\u00fasica universal; incluso encontramos en su lectura motivo de meditaci\u00f3n acerca de lo factible que resulta la m\u00fasica cuando la ponemos al servicio de convencionalismos de orden est\u00e9tico, comercial o publicitario. Toca tambi\u00e9n, muy de cerca, el tema de la actitud psicol\u00f3gica ante el arte, tema que afecta directamente al arte de vanguardia, cuando nos revela, a trav\u00e9s de la mensuraci\u00f3n entr\u00f3pica, los resortes de nuestra capacidad de tiempo-memoria. \r\n\r\nLa aparici\u00f3n de este libro contribuir\u00e1, en gran medida, a extender la idea de la necesidad de profundizar, entender, realizar y contemplar la expresi\u00f3n sonora, a la luz de modernos y cient\u00edficos procedimientos.",
+            "precio": 25,
+            "categoria": "M\u00fasica",
+            "stock": 44,
+            "imagen": "static/images/16192.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16357",
+        "fields": {
+            "id": "16357",
+            "titulo": "Security of Networks and Services in an All-Connected World",
+            "autor": "Varios",
+            "sinopsis": "This book constitutes the refereed proceedings of the 11th IFIP WG 6.6 International Conference on Autonomous Infrastructure, Management, and Security, AIMS 2017, held in Zurich, Switzerland, in July 2017.\r\n\r\nThe 8 full papers presented together with 11 short papers were carefully reviewed and selected from 24 submissions.  The papers are organized in the following topical sections: security management; management of cloud environments and services, evaluation and experimental study of rich network services; security, intrusion detection, and configuration; autonomic and self-management solutions; and methods for the protection of infrastructure.",
+            "precio": 14,
+            "categoria": "Redes y Sys Admin",
+            "stock": 31,
+            "imagen": "static/images/16357.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "14089",
+        "fields": {
+            "id": "14089",
+            "titulo": "La edad del pixel",
+            "autor": "Varios",
+            "sinopsis": "La vida, la religi\u00f3n...el videojuego; todo tiene un principio, un durante y tambi\u00e9n un final. Como en el origen de la vida, existi\u00f3 un 'desencadenante feliz' que origin\u00f3 la aparici\u00f3n de los videojuegos.\r\n\r\nAlgunos historiadores no cesan en su empe\u00f1o de buscar explicaciones intentando aportar luz en la b\u00fasqueda de los or\u00edgenes de los videojuegos; hay otros que hacen de las compa\u00f1\u00edas, m\u00e1quinas y mascotas su religi\u00f3n. A buen seguro, algunos encontrar\u00e1n la salvaci\u00f3n en los videojuegos, mientras que otros ver\u00e1n al maligno a punto de provocar el mas tremendo de los apocalipsis.\r\n\r\nY es que en cualquier caso la juegolog\u00eda va 'a llegarrrrrr' o mejor dicho ya esta aqu\u00ed, y es menester comenzar por el principio de los tiempos.\r\n\r\nNuestra historia natural y nuestra historia virtual, tienen muchas cosas en com\u00fan. En los comienzos nuestro planeta estaba muerto, pero de repente hace millones de a\u00f1os gracias a unas espont\u00e1neas reacciones qu\u00edmicas motivadas por una inesperada casualidad c\u00f3smica, lograron convertir aquella inerte sopa primitiva en lo que hoy conocemos como 'el c\u00f3digo de la vida'.\r\n\r\nEste 'c\u00f3digo de la vida' formado por enredadas cadenas binarias representa las informaciones que configuran la vida. El c\u00f3digo, permanece estructurado en series y crece continuamente replic\u00e1ndose en cada iteraci\u00f3n con estructuras cada vez mas complejas. Al final, la organizaci\u00f3n de este c\u00f3digo se vuelve tan densa y compleja, que las nuevas propiedades resultantes no son sencillas de explicar por referencia a las otras partes constituyentes. Y este es en definitiva, el concepto de la vida que conocemos actualmente.\r\n\r\nDe forma similar a la vida natural surgieron los videojuegos. En los inicios (hace muchos menos a\u00f1os), el primer videojuego sali\u00f3 del fango. Este fango, cual sopa primitiva, estaba formado por aquellos engendros mec\u00e1nicos provenientes de la revoluci\u00f3n industrial, pero fue la chispa de la electricidad la que consigui\u00f3 dar vida a esta nueva forma de entretenimiento.",
+            "precio": 7,
+            "categoria": "Atari",
+            "stock": 87,
+            "imagen": "static/images/14089.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15576",
+        "fields": {
+            "id": "15576",
+            "titulo": "Sistemas de Automatizaci\u00f3n y Rob\u00f3tica para las pymes espa\u00f1olas",
+            "autor": "Varios",
+            "sinopsis": "La importancia del sector de la fabricaci\u00f3n en la econom\u00eda de los pa\u00edses se ha puesto de manifiesto en la crisis actual. Todos los expertos abogan por potenciar un sector clave que la sociedad necesita como motor de su econom\u00eda y que en los \u00faltimos a\u00f1os ha sido sometido a una gran presi\u00f3n por parte de pa\u00edses con costes laborales reducidos. Las consecuencias son evidentes y ciertamente traum\u00e1ticas; deslocalizaci\u00f3n de muchas empresas y lo que es peor, la desaparici\u00f3n de una parte importante del tejido industrial. \r\n\r\nEn este dif\u00edcil entorno, las empresas industriales se enfrentan al reto de buscar e implantar nuevas tecnolog\u00edas productivas y organizativas que les permitan afrontar el futuro con garant\u00eda de \u00e9xito. Solo un aumento dr\u00e1stico de la productividad que afecte a los costes y a la calidad salvar\u00e1 al sector de la fabricaci\u00f3n y sus empleos. La innovaci\u00f3n a trav\u00e9s de la implantaci\u00f3n de nuevas tecnolog\u00edas, la mejora continua de los procesos mediante herramientas de fabricaci\u00f3n esbelta y la colaboraci\u00f3n con proveedores constituyen las tres alternativas m\u00e1s consolidadas. Su aplicaci\u00f3n y potencial debe ser tomado en consideraci\u00f3n por toda empresa que pretenda sobrevivir y tener futuro en el complejo entorno econ\u00f3mico que vivimos.",
+            "precio": 6,
+            "categoria": "Marketing / Business",
+            "stock": 29,
+            "imagen": "static/images/15576.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "14448",
+        "fields": {
+            "id": "14448",
+            "titulo": "Automatizaci\u00f3n industrial",
+            "autor": "Varios",
+            "sinopsis": "En las \u00faltimas d\u00e9cadas se ha seguido la tendencia de automatizar de manera progresiva procesos productivos de todo tipo. Esta tendencia ha sido y sigue siendo posible gracias al desarrollo y abaratamiento de la tecnolog\u00eda necesaria. La automatizaci\u00f3n de los procesos de producci\u00f3n persigue los objetivos:\r\n\r\n<ul>\r\n<li>Mejorar la calidad y mantener un nivel de calidad uniforme.</li>\r\n<li>Producir las cantidades necesarias en el momento preciso.</li>\r\n<li>Mejorar la productividad y reducir costes.</li>\r\n<li>Hacer m\u00e1s flexible el sistema productivo (facilitar los cambios en la producci\u00f3n).</li>\r\n</ul>\r\n\r\nEstos objetivos se han convertido de hecho en requisitos indispensables para mantener la competitividad, por lo que el aumento del nivel de automatizaci\u00f3n de los procesos es simplemente una necesidad para sobrevivir en el mercado actual.",
+            "precio": 13,
+            "categoria": "Programaci\u00f3n",
+            "stock": 14,
+            "imagen": "static/images/14448.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "14358",
+        "fields": {
+            "id": "14358",
+            "titulo": "Glosario de t\u00e9rminos y conceptos rob\u00f3ticos",
+            "autor": "Varios",
+            "sinopsis": "Este Glosario es parte del material docente elaborado para el MOOC 'C\u00f3mo introducir la programaci\u00f3n y la rob\u00f3tica educativa en todas las materias'.\r\n\r\nEste MOOC ha sido creado por un equipo multiprofesional para poner en valor, y en pr\u00e1ctica, la necesidad de trabajar en equipo y de abrir perspectivas a una sociedad que demanda una nueva manera de entender la educaci\u00f3n y la alfabetizaci\u00f3n en el siglo XXI en relaci\u00f3n a la denominada rob\u00f3tica educativa.\r\n\r\nEn este MOOC, se abre la puerta a nuevos caminos que lleven la alfabetizaci\u00f3n a una concepci\u00f3n de lenguajes en c\u00f3digos binarios, de pensamiento computacional, de analizar la vida en algoritmos para construir un futuro que tenga en consideraci\u00f3n los valores necesarios para el sostenimiento de un planeta habitado por una sociedad m\u00e1s justa y solidaria que utiliza la tecnolog\u00eda para conseguir estos fines.\r\n\r\nEl presente glosario es una breve gu\u00eda con aquellos t\u00e9rminos m\u00e1s com\u00fanmente utilizados en el trabajo y docencia de la rob\u00f3tica educativa.",
+            "precio": 11,
+            "categoria": "Rob\u00f3tica",
+            "stock": 80,
+            "imagen": "static/images/14358.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "10460",
+        "fields": {
+            "id": "10460",
+            "titulo": "Hacking con Buscadores (Google, Bing, Shodan)",
+            "autor": "Stakewinner00",
+            "sinopsis": "Con esta gu\u00eda perteneciente a la colecci\u00f3n de trabajos sobre seguridad inform\u00e1tica editada por el colectivo HackXCrack, se muestra c\u00f3mo realizar b\u00fasquedas especificas, optimizadas y completas con el fin de obtener la informaci\u00f3n exacta que se desea.\r\n\r\nPara esto, se repasan algunos operadores interesantes de cada motor de b\u00fasqueda (Google y Bing) que permiten, entre otras cosas, buscar dentro de un dominio concreto, un determinado tipo de archivo y ciertas combinaciones no tan populares que consiguen resultados llamativos.\r\n\r\nFinalmente, se presenta tambi\u00e9n al conocido Shodan, un motor de b\u00fasqueda que permite encontrar diferentes tipos de dispositivos (routers, servidores, etc) a trav\u00e9s del uso de distintos tipos de filtros. Esto tiene como consecuencia pr\u00e1ctica localizar servicios webs que utilicen por ejemplo software concreto como IIS, Apache o similares.\r\n",
+            "precio": 14,
+            "categoria": "SEO / SEM",
+            "stock": 23,
+            "imagen": "static/images/10460.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "5828",
+        "fields": {
+            "id": "5828",
+            "titulo": "VSEO: Manual de Consulta SEO",
+            "autor": "Varios",
+            "sinopsis": "El posicionamiento en buscadores, u Optimizaci\u00f3n de motores de b\u00fasqueda es el proceso de mejorar la visibilidad de un sitio web en los resultados org\u00e1nicos de los diferentes buscadores. Tambi\u00e9n es frecuente nombrarlo por su t\u00edtulo ingl\u00e9s, SEO ( search engine optimization ).\r\n\r\n",
+            "precio": 25,
+            "categoria": "SEO / SEM",
+            "stock": 23,
+            "imagen": "static/images/5828.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "5694",
+        "fields": {
+            "id": "5694",
+            "titulo": "Gu\u00eda de Recomendaciones SEO de Posicionamiento en Internet",
+            "autor": "Varios",
+            "sinopsis": "La Red es en nuestros d\u00edas una realidad aplastante de la que nadie ya puede escaparse. \r\n\r\nCon el ingente volumen de informaci\u00f3n en la Red, los buscadores se han convertido en la piedra angular y la puerta de acceso a la Web preferida por los internautas: en definitiva, en los grandes canalizadores del tr\u00e1fico. Y la b\u00fasqueda en el modelo de navegaci\u00f3n dominante. En la mayor\u00eda de las ocasiones, la actividad de los internautas parte de una b\u00fasqueda en su origen. Hasta tal punto que estar en Internet pasa de una u otra manera por estar presente y bien posicionado en los buscadores. M\u00e1s a\u00fan, en pa\u00edses como Espa\u00f1a, en los que existe un buscador (Google) que domina poderosamente sobre el resto, estar en la Red requiere estar en Google: si no est\u00e1s en Google, no existes. \r\n\r\nEn un mercado cada vez m\u00e1s competitivo las empresas, y en especial las PYMES, no pueden renunciar a contar con presencia en la Red, una presencia de \u00e9xito. Necesitan estar y con ello estar convenientemente posicionadas para poder llegar a sus clientes con sus mensajes, servicios y productos. Conscientes de que en la mayor\u00eda de los casos, las PYMES no pueden contar con personal especializado en cada una de las disciplinas, esta gu\u00eda propone: \r\n\r\n<ul>\r\n<li>Una introducci\u00f3n conceptual sobre el posicionamiento y los buscadores. Las reglas fundamentales que rigen su funcionamiento y el impacto de las mismas. </li>\r\n<li>Una descripci\u00f3n de las barreras m\u00e1s frecuentes que dificultan un adecuado posicionamiento as\u00ed como la soluci\u00f3n para las mismas. </li>\r\n</ul>",
+            "precio": 24,
+            "categoria": "SEO / SEM",
+            "stock": 96,
+            "imagen": "static/images/5694.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "5688",
+        "fields": {
+            "id": "5688",
+            "titulo": "77 Formas de Conseguir Tr\u00e1fico",
+            "autor": "Allan Gardyne",
+            "sinopsis": "Si usted no ha alcanzado un mill\u00f3n de visitas al a\u00f1o, deber\u00eda encontrar \u00fatil este informe.\r\n\r\nCuando se trata de generar tr\u00e1fico, muchos afiliados y otros due\u00f1os de sitios web tienden a quedarse pegados a una rutina confortable. A menudo usamos un peque\u00f1o n\u00famero de t\u00e9cnicas favoritas y raramente nos aventuramos m\u00e1s all\u00e1. Espero que este informe le anime a mirar m\u00e1s all\u00e1 de las t\u00e9cnicas que est\u00e1 usando e intente unas pocas m\u00e1s. Usando una variedad de t\u00e9cnicas m\u00e1s amplia, atraer\u00e1 nuevos visitantes de lugares nuevos. Cuanto m\u00e1s amplia sea su red de tr\u00e1fico, m\u00e1s perdurar\u00e1 su negocio.\r\n\r\nUsted probablemente no usar\u00e1 TODOS los m\u00e9todos que se exponen aqu\u00ed. Elija los que mejor se adapten a su sitio, sus habilidades, sus intereses y su temperamento. Todas las t\u00e9cnicas que describo aqu\u00ed requieren trabajo \u2013 pero esto es una BUENA cosa.\r\n\r\nMuchos de sus competidores ser\u00e1n demasiado perezosos para hacer el trabajo requerido, de forma que cuando lo haga, su tr\u00e1fico saltar\u00e1 por encima del de ellos. Para hacer una o dos de las cosas que describe, puede tener que ir a eLance o Rentacoder y contratar un programador. Sin embargo, la gran mayor\u00eda de las t\u00e9cnicas son gratuitas y relativamente sencillas. La mayor\u00eda de ellas requieren tiempo, no dinero.\r\n\r\n(Allan Gardyne, CEO de AssociatePrograms.com)",
+            "precio": 12,
+            "categoria": "SEO / SEM",
+            "stock": 85,
+            "imagen": "static/images/5688.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16589",
+        "fields": {
+            "id": "16589",
+            "titulo": "Sistemas operativos en las netbooks: GNU/Linux y Microsoft Windows. Serie instrumental para el modelo 1 a 1",
+            "autor": "Javier Castrillo & Dar\u00edo Mart\u00edn Gelbort",
+            "sinopsis": "Este material, destinado a docentes y alumnos, es una gu\u00eda para conocer en forma b\u00e1sica el sistema operativo Windows y el sistema GNU/Linux. Se brindan elementos para situarse por primera vez en uno u otro sistema, en los elementos de su escritorio, la gesti\u00f3n de programas, carpetas y archivos. \r\n\r\nEl sistema operativo consiste en un conjunto de programas que administran los recursos de la computadora de la forma m\u00e1s eficaz posible. Es el intermediario entre el hardware (los procesadores, las memorias, los dispositivos de entrada y salida) y las diversas aplicaciones que utilizamos a diario. El sistema operativo es el encargado de:\r\n\r\n<ul>\r\n<li>La interfaz gr\u00e1fica entre el sistema y el usuario, es decir la apariencia visual en la que se nos muestran los programas, archivos y carpetas.</li>\r\n<li>La administraci\u00f3n de diferentes usuarios en una misma computadora y la posibilidad de compartir datos con otras computadoras.</li>\r\n<li>La seguridad.</li>\r\n<li>El acceso y la comunicaci\u00f3n con los dispositivos de entrada y salida (teclado, mouse, pendrive, impresoras, etc.).</li>\r\n</ul>",
+            "precio": 27,
+            "categoria": "GNU / Linux",
+            "stock": 82,
+            "imagen": "static/images/16589.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16020",
+        "fields": {
+            "id": "16020",
+            "titulo": "Fundamentos de Sistemas Operativos",
+            "autor": "Varios",
+            "sinopsis": "Este libro busca brindar a estudiantes y docentes de las carreras de ingenier\u00eda en computaci\u00f3n, inform\u00e1tica, Ciencias de la Computaci\u00f3n y similares un material completo, general y autocontenido sobre la materia de sistemas operativos. No se asume conocimiento previo sobre la tem\u00e1tica, aunque se utilizar\u00e1n conceptos de estructuras de datos y algoritmos b\u00e1sicos.\r\n\r\nActualmente hay vasta bibliograf\u00eda sobre sistemas operativos, sin embargo la gran mayor\u00eda est\u00e1 escrita en ingl\u00e9s, y cuando est\u00e1n disponibles en castellano, su traducci\u00f3n deja mucho que desear, llevando a conceptos confusos y dif\u00edciles de comprender. La intenci\u00f3n de los autores es que el presente texto provea un material redactado originalmente en castellano, revisado por docentes latinoamericanos utilizando la terminolog\u00eda m\u00e1s adecuada para los alumnos de la regi\u00f3n y eliminando muchos de los errores de traducci\u00f3n. \r\n\r\nGeneralmente el material de cursos de sistemas operativos est\u00e1 compuesto por partes de distintos libros, art\u00edculos de investigaci\u00f3n, recursos en l\u00ednea, software, ejercitaci\u00f3n, etc. Por ello, el alumno debe recurrir a distintas fuentes durante el curso. El presente libro pretende ser de utilidad tanto para alumnos como para docentes como una \u00fanica publicaci\u00f3n autocontenida. Cabe remarcar tambi\u00e9n que el material bibliogr\u00e1fico generalmente est\u00e1 protegido por derecho de autor, es costoso y en muchos casos de dif\u00edcil acceso (sobre todo las publicaciones en ingl\u00e9s). \r\n\r\nLos contenidos de la bibliograf\u00eda cl\u00e1sica de sistemas operativos est\u00e1n basadas en re-ediciones y compendio de libros de hace varias d\u00e9cadas que incluyen temas obsoletos o desactualizados. Hay tambi\u00e9n desarrollos y tendencias nuevas en el \u00e1rea que a\u00fan no han sido integradas en la bibliograf\u00eda cl\u00e1sica, y mucho menos a las traducciones. Tambi\u00e9n se quiere revisar y actualizar los conceptos cl\u00e1sicos de sistemas operativos incluyendo material de publicaci\u00f3n reciente.",
+            "precio": 29,
+            "categoria": "Software General",
+            "stock": 45,
+            "imagen": "static/images/16020.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "15908",
+        "fields": {
+            "id": "15908",
+            "titulo": "Plan Docente para la Asignatura de Administraci\u00f3n de Sistemas Operativos",
+            "autor": "Julio C\u00e9sar Gonz\u00e1lez Moreno",
+            "sinopsis": "El Programa de Cooperaci\u00f3n con Nicaragua (PCN) es un Proyecto de gran impulso orientado a la formaci\u00f3n de capacidades acad\u00e9micas por parte de la Universidad de Alcal\u00e1, cuyo objetivo es contribuir al desarrollo de Nicaragua a trav\u00e9s del fortalecimiento acad\u00e9mico de futuros docentes de la Universidad Nacional Aut\u00f3noma de Nicaragua, UNAN-Le\u00f3n. Un Proyecto alimentado por una visi\u00f3n compartida sobre el papel y la posibilidad de la universidad como agente de desarrollo del conocimiento, la tecnolog\u00eda y la cultura y una filosof\u00eda de trabajo planificado, organizado y de medio-largo plazo. \r\n\r\nEn el a\u00f1o 1994 se cre\u00f3 el convenio entre el Departamento de Autom\u00e1tica de la Universidad de Alcal\u00e1 de Henares (UAH) y el Departamento de Computaci\u00f3n de la Universidad Nacional Aut\u00f3noma de Nicaragua (UNAN-Le\u00f3n) con el objetivo de impulsar la excelencia en la ense\u00f1anza acad\u00e9mica en la carrera de Ingenier\u00eda en Sistemas de Informaci\u00f3n (antes Licenciatura en Computaci\u00f3n), lo cual ha contribuido y sigue contribuyendo con la formaci\u00f3n de mejores profesionales en el \u00e1rea de la inform\u00e1tica. \r\n\r\nComo consecuencia del gran impacto que est\u00e1n teniendo las redes y las tecnolog\u00edas de comunicaciones hoy en d\u00eda, el departamento de Computaci\u00f3n de la UNAN-Le\u00f3n decidi\u00f3 agregar, con el apoyo del convenio que tiene con la Universidad de Alcal\u00e1 de Henares, una nueva opci\u00f3n de carrera profesional: la carrera de Ingenier\u00eda en Telem\u00e1tica, la cual contempla un plan de estudios que requiere de un periodo de cinco a\u00f1os de estudios superiores (los tres primeros a\u00f1os son semejantes con la carrera de Ingenier\u00eda en sistemas de informaci\u00f3n) y una dedicaci\u00f3n de tiempo completo por parte del estudiante. \r\n\r\nEn el presente documento se aborda el desarrollo del Plan Docente de la asignatura de Administraci\u00f3n de Sistemas Operativos que se imparte en el segundo semestre del cuarto a\u00f1o de la carrera (en general octavo semestre de la carrera) de Ingenier\u00eda en Telem\u00e1tica de la UNANLe\u00f3n. \r\n\r\nAdem\u00e1s de lo mencionado anteriormente tambi\u00e9n se presentan los siguientes aspectos: \r\n<ul>\r\n<li>La situaci\u00f3n actual de la asignatura.</li>\r\n<li>Su relaci\u00f3n con otras asignaturas.</li>\r\n<li>La metodolog\u00eda empleada.</li>\r\n<li>El material did\u00e1ctico de apoyo para impartirla.</li>\r\n<li>El sistema de evaluaci\u00f3n.</li>\r\n<li>La planificaci\u00f3n temporal.</li>\r\n<li>La presentaci\u00f3n de los contenidos te\u00f3ricos y su respectiva bibliograf\u00eda.</li>\r\n<li>El desarrollo de las pr\u00e1cticas y su respectiva bibliograf\u00eda.</li>\r\n</ul>",
+            "precio": 21,
+            "categoria": "Educaci\u00f3n",
+            "stock": 63,
+            "imagen": "static/images/15908.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "14846",
+        "fields": {
+            "id": "14846",
+            "titulo": "Elementos de Sistemas Operativos",
+            "autor": "Gregorio Fern\u00e1ndez Fern\u00e1ndez",
+            "sinopsis": "Este documento se ha elaborado a partir de unos apuntes dise\u00f1ados para la asignatura \u00abArquitectura de computadores y sistemas operativos\u00bb (\u00abARSO\u00bb), incluida en el plan de estudios del Grado en Ingenier\u00eda Biom\u00e9dica que se imparte en la Escuela T\u00e9cnica Superior de Ingenieros de Telecomunicaci\u00f3n con la participaci\u00f3n de otros cinco centros de la Universidad Polit\u00e9cnica de Madrid.\r\n\r\nTanto el contexto curricular como el entorno profesional de los futuros graduados hac\u00edan poco recomendable adoptar como material de estudio algunos de los magn\u00edficos libros de texto disponibles sobre estas materias. Se trata de una titulaci\u00f3n multidisciplinar cuyo objetivo es la formaci\u00f3n de ingenieros capaces de aplicar las tecnolog\u00edas y desarrollar aplicaciones colaborando con otros profesionales en entornos m\u00e9dicos y sanitarios. Deben conocer los fundamentos de estos temas, pero sin la profundidad requerida por los inform\u00e1ticos, con los que, eventualmente, tendr\u00e1n que trabajar.\r\n\r\nPor otra parte, tanto en los textos como en los cursos sobre arquitectura y sobre sistemas operativos se supone que el estudiante tiene ya algunos conocimientos sobre la estructura y el funcionamiento de los ordenadores y sobre la representaci\u00f3n de datos en binario. Normalmente, con alguna asignatura de nombre \u00abIntroducci\u00f3n a la inform\u00e1tica\u00bb, \u00abFundamentos de ordenadores\u00bb... Pero en el plan de estudios la \u00fanica asignatura previa relacionada con la inform\u00e1tica es \u00abFundamentos de programaci\u00f3n\u00bb, de primer curso; aunque incluye en su introducci\u00f3n algunos elementos superficiales, se centra, sobre todo, en la programaci\u00f3n con el lenguaje Java y el entorno Eclipse. Igualmente superficial y sesgada por un punto de vista electr\u00f3nico es la introducci\u00f3n a los procesadores digitales de la asignatura \u00abSistemas electr\u00f3nicos\u00bb, de segundo curso. Otras asignaturas relacionadas con la inform\u00e1tica, que se imparten en el mismo curso que ARSO (tercero), son de un nivel de abstracci\u00f3n m\u00e1s alto: \u00abAlgoritmos y estructuras de datos\u00bb y \u00abBases de datos\u00bb.\r\n\r\nEsta situaci\u00f3n nos motiv\u00f3 para elaborar unos materiales de apoyo a la docencia ajustados a los conocimientos previos de los estudiantes y a los objetivos de su formaci\u00f3n. Creemos que el resultado, o parte de \u00e9l, puede ser de utilidad para otras personas ajenas al contexto para el que ha sido concebido, y ese es el motivo por el que lo hacemos p\u00fablico. Para evitar malentendidos del eventual lector, sustituimos en el t\u00edtulo el nombre de la asignatura por otro, m\u00e1s largo pero mejor ce\u00f1ido al contenido.\r\n\r\nEl documento base que se entrega a los estudiantes es el formado por los cap\u00edtulos 1 a 13 y los dos primeros ap\u00e9ndices. A lo largo del curso se proponen pr\u00e1cticas de laboratorio y ejercicios, y en esta edici\u00f3n se han incluido como ap\u00e9ndices algunos de los realizados en cursos pasados.",
+            "precio": 23,
+            "categoria": "Software General",
+            "stock": 73,
+            "imagen": "static/images/14846.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "14692",
+        "fields": {
+            "id": "14692",
+            "titulo": "Sistemas Operativos",
+            "autor": "Varios",
+            "sinopsis": "Este libro busca brindar a estudiantes y docentes de las carreras de Ingenier\u00eda en Computaci\u00f3n, Inform\u00e1tica, Ciencias de la Computaci\u00f3n y similares un material completo, general y autocontenido sobre la materia de Sistemas Operativos. No se asume conocimiento previo sobre la tem\u00e1tica, aunque se utilizar\u00e1n conceptos de estructuras de datos y algoritmos b\u00e1sicos.\r\n\r\nActualmente existe vasta bibliograf\u00eda sobre Sistemas Operativos, sin embargo la gran mayor\u00eda est\u00e1 escrita en ingl\u00e9s, y cuando est\u00e1n disponibles en castellano, su traducci\u00f3n deja mucho que desear, llevando a conceptos confusos y dif\u00edciles de comprender. La intenci\u00f3n de los autores es que el presente texto provea un material redactado originalmente en castellano, revisado por docentes latinoamericanos utilizando la terminolog\u00eda m\u00e1s adecuada para los alumnos de la regi\u00f3n y eliminando muchos de los errores de traducci\u00f3n.\r\n\r\nGeneralmente el material de cursos de Sistemas Operativos est\u00e1 compuesto por partes de distintos libros, art\u00edculos de investigaci\u00f3n, recursos en linea, software, ejercitaci\u00f3n, etc. Por ello, el alumno debe recurrir a distintas fuentes durante el curso. El presente libro pretende ser de utilidad tanto para alumnos como para docentes como una \u00fanica publicaci\u00f3n autocontenida. Cabe remarcar tambi\u00e9n que el material bibliogr\u00e1fico generalmente est\u00e1 protegido por derecho de autor, es costoso y en muchos casos de dif\u00edcil acceso (sobre todo las publicaciones en ingl\u00e9s).\r\n\r\nLos contenidos de la bibliograf\u00eda cl\u00e1sica de Sistemas Operativos est\u00e1n basadas en re-ediciones y compendio de libros de hace varias d\u00e9cadas que incluyen temas obsoletos o desactualizados. Existen tambi\u00e9n desarrollos y tendencias nuevas en el \u00e1rea que aun no han sido integradas en la bibliograf\u00eda cl\u00e1sica, y mucho menos a las traducciones. El presente libro pretende tambi\u00e9n revisar y actualizar los conceptos cl\u00e1sicos de sistemas operativos incluyendo material de publicaci\u00f3n reciente.",
+            "precio": 24,
+            "categoria": "Software General",
+            "stock": 20,
+            "imagen": "static/images/14692.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16589",
+        "fields": {
+            "id": "16589",
+            "titulo": "Sistemas operativos en las netbooks: GNU/Linux y Microsoft Windows. Serie instrumental para el modelo 1 a 1",
+            "autor": "Javier Castrillo & Dar\u00edo Mart\u00edn Gelbort",
+            "sinopsis": "Este material, destinado a docentes y alumnos, es una gu\u00eda para conocer en forma b\u00e1sica el sistema operativo Windows y el sistema GNU/Linux. Se brindan elementos para situarse por primera vez en uno u otro sistema, en los elementos de su escritorio, la gesti\u00f3n de programas, carpetas y archivos. \r\n\r\nEl sistema operativo consiste en un conjunto de programas que administran los recursos de la computadora de la forma m\u00e1s eficaz posible. Es el intermediario entre el hardware (los procesadores, las memorias, los dispositivos de entrada y salida) y las diversas aplicaciones que utilizamos a diario. El sistema operativo es el encargado de:\r\n\r\n<ul>\r\n<li>La interfaz gr\u00e1fica entre el sistema y el usuario, es decir la apariencia visual en la que se nos muestran los programas, archivos y carpetas.</li>\r\n<li>La administraci\u00f3n de diferentes usuarios en una misma computadora y la posibilidad de compartir datos con otras computadoras.</li>\r\n<li>La seguridad.</li>\r\n<li>El acceso y la comunicaci\u00f3n con los dispositivos de entrada y salida (teclado, mouse, pendrive, impresoras, etc.).</li>\r\n</ul>",
+            "precio": 21,
+            "categoria": "GNU / Linux",
+            "stock": 91,
+            "imagen": "static/images/16589.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16703",
+        "fields": {
+            "id": "16703",
+            "titulo": "El tablero medieval de c\u00e1lculo y las operaciones con n\u00fameros romanos: estudio hist\u00f3rico y pedag\u00f3gico",
+            "autor": "Jos\u00e9 Mar\u00eda N\u00fa\u00f1ez",
+            "sinopsis": "Se describe el fundamento del tablero medieval de c\u00e1lculo y su uso para la realizaci\u00f3n de operaciones aritm\u00e9ticas. Se muestra la sencilla operativa de este instrumento y c\u00f3mo el sistema se adecua perfectamente a la escritura utilizando n\u00fameros romanos. La descripci\u00f3n se complementa con diversas consideraciones tanto hist\u00f3ricas como pedag\u00f3gicas. As\u00ed, se analizan sus antecedentes, y puesto que el tablero de calcular es la evoluci\u00f3n del \u00e1baco romano, el trabajo comienza con un breve estudio de este instrumento de c\u00e1lculo basado exclusivamente en los datos arqueol\u00f3gicos y documentales conservados. \r\n\r\nTambi\u00e9n, y a partir del an\u00e1lisis de la utilizaci\u00f3n del tablero, ofrecemos una visi\u00f3n m\u00e1s completa de los factores que explican la resistencia ofrecida por la sociedad europea a la introducci\u00f3n del sistema de numeraci\u00f3n indo ar\u00e1bigo y su metodolog\u00eda algor\u00edtmica. \r\n\r\nFinalmente, se plantea un estudio comparativo entre la metodolog\u00eda del tablero y la algor\u00edtmica tradicional mostr\u00e1ndose las semejanzas estructurales que subyacen entre ambas metodolog\u00edas de c\u00e1lculo. ",
+            "precio": 16,
+            "categoria": "Historia",
+            "stock": 99,
+            "imagen": "static/images/16703.jpg",
+            "escaparate": "False",
+            "formato": "FISICO"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": "16096",
+        "fields": {
+            "id": "16096",
+            "titulo": "Webperiodismo en un ecosistema l\u00edquido",
+            "autor": "Varios",
+            "sinopsis": "Cuatro a\u00f1os pasaron desde el Primer Foro de Periodismo Digital Rosario all\u00e1 por junio de 2008, cuando todav\u00eda faltaban unos d\u00edas para que Apple anunciara la salida al mercado del iPhone 3G, un par de a\u00f1os para conocer la primera tablet, y Argentina se convert\u00eda en el tercer pa\u00eds del mundo donde m\u00e1s hab\u00eda crecido Facebook pasando 96 mil usuarios registrados a poco m\u00e1s de 500 mil en los d\u00edas que se realizaba el foro. Twitter era una comunidad realmente peque\u00f1a. \r\n\r\nBasta comparar esos datos con los cerca de 20 millones de usuarios con una penetraci\u00f3n de casi el 50% para Facebook en Argentina, y prestar la debida atenci\u00f3n al anuncio de que las conexiones m\u00f3viles ya superaron a las fijas como forma de acceder a los contenidos en la Web, para confirmar que el paradigma de transici\u00f3n es vertiginoso y nos exige atenci\u00f3n y actualizaci\u00f3n permanente. \r\n\r\nEn este escenario resulta imprescindible un espacio de re\ufb02exi\u00f3n como este Foro Internacional de Periodismo Digital que no para de crecer en calidad de contenidos y cantidad de asistentes, y se ha posicionado como un evento anual de referencia en Argentina y toda Iberoam\u00e9rica. \r\n\r\nPero el nuevo escenario tambi\u00e9n demanda la experimentaci\u00f3n y por eso desde 2011 el Foro de Periodismo Internacional de Periodismo Digital ha incorporado talleres de innovaci\u00f3n period\u00edstica en medios digitales. \r\n\r\nComo bien dice Gumersindo Lafuente en su art\u00edculo ya pas\u00f3 la hora de buscar certezas donde s\u00f3lo hay incertidumbres. Mucho se habla de la crisis del periodismo acelerada por la convergencia digital, y de la tragedia econ\u00f3mica de los medios, pero es hora de acostumbrarse al nuevo escenario y a sus reglas de juego.",
+            "precio": 25,
+            "categoria": "Informaci\u00f3n",
+            "stock": 14,
+            "imagen": "static/images/16096.jpg",
+            "escaparate": "True",
+            "formato": "FISICO"
+        }
+    }
+]

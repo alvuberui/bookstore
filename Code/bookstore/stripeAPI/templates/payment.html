@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    {% include 'static/components/head.html' %}
+    <script src="https://js.stripe.com/v3/"></script>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <body>
+      {% load static %}
+      <div class="text-center my-5">
+        <img src='{% static 'main/icon-blanco-nol.jpg' %}' alt="logo" width="100">
+      </div>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="row" colspan="3" class="text-center">CESTA</th>
+          </tr>
+          <tr>
+            <th scope="col">Artículo</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for key, value in request.session.carrito.items %}
+        <tr>
+          <td>{{value.nombre}}</td>
+          <td>{{value.acumulado}}€</td>
+          <td>{{value.cantidad}}
+          </td>
+        </tr>
+        {% endfor %}
+        {% if envio.value %}
+        <tr>
+          <td>Envio</td>
+          <td>{{envio.payload}}€</td>
+          <td></td>
+        </tr>
+        {% endif%}
+        <tr>
+          <th scope="row">Total:</th>
+          <td colspan="2">{{suma_total}}€</td>
+        </tr>
+      
+    </tbody>
+      </table>
+
+    <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <td>Nombre</td>
+            <td>{{pedido.nombre}} {{pedido.apellidos}}</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Dirección</td>
+            <td>{{pedido.direccion}}</td>
+
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>Codigo postal</td>
+            <td>{{pedido.codigo_postal}}</td>
+           
+          </tr>
+          <tr>
+            <td><button id="submitBtn" class="btn btn-success">Pagar con pasarela de pago</button></td>
+          </tr>
+          {%if hay_fisico%}
+          <tr>
+            <td><a href="/pedido/contrareembolso/{{pedido.id}}" class="btn btn-success">Pagar contrareembolso</a></td>
+          </tr>
+          {%endif%}
+        </tbody>
+    </table>
+
+  {% include 'static/components/footer.html' %}
+
+    </body>
+    <script>
+      fetch("/stripe/config/")
+    .then((result) => { return result.json(); })
+    .then((data) => {
+      // Initialize Stripe.js
+      const stripe = Stripe(data.publicKey);
+      // new
+      // Event handler
+      document.querySelector("#submitBtn").addEventListener("click", () => {
+        // Get Checkout Session ID
+        fetch("/create-checkout-session/{{pedido.id}}") 
+        .then((result) => {
+             return result.json(); })
+        .then((data) => {
+          console.log(data);
+          // Redirect to Stripe Checkout
+          return stripe.redirectToCheckout({sessionId: data.sessionId})
+        })
+        .then((res) => {
+          console.log(res);
+        });
+      });
+    });
+    </script>
+</html>

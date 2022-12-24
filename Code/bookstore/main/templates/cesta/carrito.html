@@ -1,0 +1,48 @@
+<div class="alert alert-secondary" role="alert">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="row" colspan="3" class="text-center">CESTA</th>
+            </tr>
+            <tr>
+                <th scope="col">Artículo</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+    <tbody>
+        {% if request.session.carrito.items %}
+        {% for key, value in request.session.carrito.items %}
+        <tr>
+            <td>{{value.nombre}}</td>
+            <td>{{value.acumulado}}€</td>
+            <td>{{value.cantidad}}
+            <a href="{% url 'Add' value.producto_id %}" class="ms-3 badget btn btn-dark badge-dark">+ </a>
+            <a href="{% url 'Sub' value.producto_id %}" class="ms-1 badget btn btn-dark badge-dark">- </a>
+            </td>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+            <td colspan="3">
+                <div class="alert alert-danger text-center">Sin Productos</div>
+            </td>
+        </tr>
+        {% endif %}
+        <tr>
+            <th scope="row">Total:</th>
+            <td colspan="2">{{total_carrito}}€</td>
+         
+        </tr>
+        <tr>
+            <th>Envio gratuito a partir de 20€</th>
+            <th>5€</th>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<div class="row text-center" style="display: flex; justify-content: space-evenly;">
+    <div class="col-2" style="width: auto;"><a href="{% url 'CLS' %}" class="btn btn-danger">Limpiar carrito</a></div>
+    <div class="col-2"><a href="/pedido/create" class="btn btn-success">Comprar</a></div>
+</div>
+</div>

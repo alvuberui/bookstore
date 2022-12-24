@@ -1,0 +1,120 @@
+{% extends 'static/layout_principal.html' %}
+
+{% block header %}
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white flex">
+                    <h1 class="display-4 fw-bolder">Detalles del pedido</h1>
+
+                    <h3>Número de pedido: {{pedido.id}}</h3>
+                </div>
+            </div>
+        </header>
+{% endblock %}
+
+{% block section %}
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5   justify-content-center">
+
+            <div class="col mb-10">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="">
+                            <!-- Product name-->
+
+
+                            <p class="fw-bolder">Nombre y Apellidos:</p>
+                            <p>{{pedido.nombre}} {{pedido.apellidos}}</p>
+                            {% if pedido.en_tienda %}
+                            <p class="fw-bolder">Recogida en Tienda:</p>
+                            <p>Si</p>
+                            {% else %}
+                            <p class="fw-bolder">Dirección: </p>
+                            <p>{{pedido.direccion}}, {{pedido.localidad}} ({{pedido.provincia}})</p>
+                            <p class="fw-bolder">Código postal: </p>
+                            <p>{{pedido.codigo_postal}}</p>
+                            {% endif %}
+                            <p class="fw-bolder">Teléfono: </p>
+                            <p>{{pedido.numero_telefono}}</p>
+                            <p class="fw-bolder">Estado: </p>
+                            <p>{{pedido.estado}}</p>
+                            {%if user.is_superuser%}
+                            <hr class="dropdown-divider"/>
+
+                            <p class="fw-bolder">Usuario: </p>
+                            <p>{{pedido.usuario.first_name}}</p>
+                            <p class="fw-bolder">Email:</p>
+                            <p> {{pedido.email}}</p>
+                            {%endif%}
+                        </div>
+                    </div>
+                    {% if user.is_superuser%}
+                    <div class="card-footer input-group ">
+                        <form action="/pedido/state/{{pedido.id}}">
+                            <div class="input-group">
+                                <select name="estado" class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                  <option selected>Cambiar Estado...</option>
+                                  <option value="Procesando">Procesando</option>
+                                  <option value="Pagado">Pagado</option>
+                                  <option value="Enviado">Enviado</option>
+                                  {%if pedido.en_tienda%}
+                                  <option value="En Tienda">En Tienda</option>
+                                  {%endif%}
+                                  <option value="Entregado">Entregado</option>
+                                </select>
+                                <button class="btn btn-outline-primary" type="submit">Cambiar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Libro</th>
+                                        <th>Formato</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {%for libro, cantidad in libros.items%}
+                                    <tr>
+                                        <td>{{libro.titulo}}</td>
+                                        <td>{{libro.formato}}</td>
+                                        <td>{{libro.precio}}</td>
+                                        <td>{{cantidad}}</td>
+                                        <td>{% widthratio libro.precio 1 cantidad %}</td>
+                                    </tr>
+                                    {%endfor%}
+                                    {%if total <= 20 and hay_fisico%}
+                                    <tr>
+                                        <td colspan="3" class="text-end">Gastos de envío</td>
+                                        <td>5€</td>
+                                    </tr>
+                                    {%endif%}
+    
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="text-right">Total Pedido:</td>                    
+                                    <td>{{total}}</td>
+                                </tr>  
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

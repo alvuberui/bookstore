@@ -1,0 +1,66 @@
+{% extends 'static/layout_principal.html' %}
+
+{% block header %}
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white flex">
+            <h2 class="display-4 fw-bolder">{{datoLibro.titulo}}</h2>
+        </div>
+    </div>
+</header>
+
+{% endblock %}
+<!-- Section-->
+{% block section %}
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5  justify-content-center">
+            <div class="col mb-5">
+                <div class="card mh-75">
+                    <!-- Product image-->
+                    <img class="card-img-top" src=/{{datoLibro.imagen}} style="height: 300px;" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <!-- <h5 class="fw-bolder">Popular Item</h5> -->
+                            <!-- Product price-->
+                            {{datoLibro.precio}}€
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="{% url 'AddNewDetails' datoLibro.id %}">Añadir al carrito</a></div>
+
+                        {% if user.is_superuser %}
+                            <div class="text-center"><a class="btn btn-outline-primary mt-2" href="update/{{datoLibro.id}}">Actualizar</a></div>
+                            <div class="text-center mt-3"><a class="  btn btn-outline-danger mt-auto" href="/libro/delete/{{datoLibro.id}}">Eliminar libro</a></div>
+                        {% endif %}
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="col-9 text-start ">
+                <p style="font-weight: bold;">Autor: </p>
+                <p>{{datoLibro.autor}}</p>
+                <p style="font-weight: bold;">Sinopsis: </p>
+                <p style="text-align: left;">{{datoLibro.sinopsis}}</p>
+                <p style="font-weight: bold;">Categoria: </p>
+                <p>{{datoLibro.categoria}}</p>
+                <p style="font-weight: bold;">Formato: </p>
+                <p>{{datoLibro.formato}}</p>
+                {%if datoLibro.formato == "FISICO" %}
+                <p style="font-weight: bold;">Stock disponible: </p>
+                {% if datoLibro.stock == 0 %}
+                <p style="color: red; font-weight: bold;">Sin stock</p>
+                {% else %}
+                <p>{{datoLibro.stock}} unidades</p>
+                {% endif %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+     

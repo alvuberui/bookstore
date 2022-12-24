@@ -1,0 +1,70 @@
+{% extends 'static/layout_principal.html' %}
+
+{% block header %}
+<header class="bg-dark py-5">    
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white flex">
+            <h2 class="display-4 fw-bolder">Actualizar Datos Perfil</h2>
+        </div>
+    </div>
+</header>
+
+{% endblock %}
+
+{% block section %}
+    <body>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <div class="form-group  card w-50">
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="card-body text-center">
+                            {{form.as_p}}
+                            </div>
+                            <div class="card-footer text-center">
+                                <button type="submit" class="btn btn-outline-primary">
+                                    Guardar Cambios
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="my-3 text-center">
+                    {%if not user.is_superuser%}
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Eliminar cuenta
+                      </button>
+                      {%endif%}
+                      <!-- Modal -->
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="staticBackdropLabel">
+                                ¿Estas seguro que desea eliminar tu cuenta?
+                              </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Se procedera a eliminar todos tus datos
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                              <a  href="/account/delete/{{user.id}}" class="btn btn-danger">Si, lo he entiendo</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        {% endblock %}
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Bookstore 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+    </body>
+</html>

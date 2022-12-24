@@ -1,0 +1,86 @@
+{% extends 'static/layout_principal.html' %}
+
+
+{% block header %}
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white flex">
+            <h1 class="display-4 fw-bolder">Detalles del pedido</h1>
+            <p>Numero de pedido {{pedido.id}}</p>
+            <p>{{pedido.fecha}}</p>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+<!-- Section-->
+{% block section %}
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 ">
+
+
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="row" colspan="4" class="text-center">Detalles</th>
+                  </tr>
+                  <tr>
+                    <th scope="col">Artículo</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for libro, cantidad, total in libros_pedido %}
+                <tr>
+                  <td>{{libro.titulo}}</td>
+                  <td>{{libro.precio}}€</td>
+                  <td>{{cantidad}}</td>
+                  <td>{{total}}</td>
+                </tr>
+                {% endfor %}
+                {% if envio.value %}
+                <tr>
+                  <td>Envio</td>
+                  <td>{{envio.payload}}€</td>
+                  <td></td>
+                </tr>
+                {% endif%}
+                <tr>
+                  <th colspan="2"></th>
+                  <th scope="row">Total:</th>
+                  <td colspan="1">{{total_pedido}}€</td>
+                </tr>
+              
+            </tbody>
+              </table>
+        
+            <table class="table table-bordered"> <thead>
+                <tr>
+                  <th scope="row" colspan="4" class="text-center">Detalles de envio</th>
+                </tr>
+                <tbody>
+                  <tr>
+                    <td>Nombre</td>
+                    <td>{{pedido.nombre}} {{pedido.apellidos}}</td>
+                  </tr>
+                  <tr>
+                    <td>Dirección</td>
+                    <td>{{pedido.direccion}}</td>
+                  </tr>
+                  <tr>
+                    <td>Codigo postal</td>
+                    <td>{{pedido.codigo_postal}}</td>
+                  </tr>
+                  <tr>
+                    <td>Estado</td>
+                    <td>{{pedido.codigo_postal}}</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

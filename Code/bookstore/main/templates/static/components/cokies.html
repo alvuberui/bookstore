@@ -1,0 +1,37 @@
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm d-flex justify-content-center">
+        <div class="modal-content text-center">
+            <div class="modal-header d-flex justify-content-center">
+                <h5 class="modal-title text-primary" id="cookieconsentLabel1">Privacidad</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                Esta web recoge sus datos personales para uso esclusivo de la empresa. No se cederán a terceros.
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <a type="button" class="btn btn-outline-primary" href="/politica/privacidad">Quiero saber más</a>
+                <button type="button" id="accept" class="btn btn-primary" data-bs-dismiss="modal" >Entendido</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+<script>
+const cookies = localStorage.getItem('cookies');
+var myModal = new bootstrap.Modal(document.getElementById("staticBackdrop"), {});
+document.onreadystatechange = function () {
+    if (cookies == null || cookies == undefined || (cookies != "false" && cookies != "true")) {
+        myModal.show();
+        localStorage.setItem('cookies', 'false');
+    }else if (cookies == 'false') {
+        myModal.show();
+    }else{
+        myModal.hide();
+    }
+};
+
+document.getElementById("accept").addEventListener("click", function(){
+    localStorage.setItem('cookies', 'true');
+});
+</script>
+  

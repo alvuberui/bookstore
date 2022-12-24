@@ -1,0 +1,48 @@
+{% extends 'static/layout_principal.html' %}
+{% load crispy_forms_tags %}       
+{% block header %}
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white flex">
+            <h1 class="display-4 fw-bolder">Datos Libro</h1>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+<!-- Section-->
+{% block section %}
+<section class="h-100">
+    <div class="container h-100">
+        <div class="row justify-content-sm-center h-100">
+                <div class="text-center my-5">
+                </div>
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        {% if request.path == '/libro/add/' %}
+                        <h1 class="fs-4 card-title fw-bold mb-4">Añadir nuevo libro</h1>
+                        {% else %}
+                        <h1 class="fs-4 card-title fw-bold mb-4">Editar libro</h1>
+                        {% endif %}
+                        <div class="container py-5">
+                            <form method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                {{ new_libro_form.as_div }} 
+                                <div class="d-flex  justify-content-end">
+                                    {% if request.path == '/libro/add/' %}
+                                    <button class="btn btn-primary d-flex" type="submit">Añadir</button>
+                                    {% else %}
+                                    <button class="btn btn-primary d-flex" type="submit">Editar</button>
+                                    {% endif %}
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5 text-muted">
+                    Copyright &copy; 2022 &mdash; BookStore
+                </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

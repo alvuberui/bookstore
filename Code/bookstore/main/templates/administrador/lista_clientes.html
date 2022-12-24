@@ -1,0 +1,62 @@
+{% extends 'static/layout_principal.html' %}
+
+{% block header %}
+
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white flex">
+
+
+            <h1 class="display-4 fw-bolder">Usuarios</h1>
+        </div>
+    </div>
+</header>
+
+{% endblock %}
+
+{% block section %}
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5   justify-content-center">
+
+            <div class="col mb-10">
+                <div class="card h-100">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nombre de Usuario</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellidos</th>
+                            <th scope="col">Correo Electronico</th>
+                            <th scope="col">Acciones</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        {% for cliente in clientes %}
+                          <tr>
+                            <th scope="row">{{cliente.id}}</th>
+                            <td>{{cliente.username}}</td>
+                            <td>{{cliente.first_name}}</td>
+                            <td>{{cliente.last_name}}</td>
+                            <td>{{cliente.email}}</td>
+                            <td>
+                                <a class="btn btn-outline-primary" href="/clientes/update/{{cliente.id}}">Modificar</a>
+                                <a class="btn btn-outline-danger" href="/clientes/delete/{{cliente.id}}">Eliminar</a>
+                            </td>
+                          </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                    <a class="btn btn-outline-success" href="/clientes/new">Añadir usuario</a>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+

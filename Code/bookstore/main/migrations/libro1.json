@@ -1,0 +1,834 @@
+[
+    {
+        "model": "main.libro",
+        "pk": 155721,
+        "fields": {
+            "id": 155721,
+            "titulo": "Ajedrez (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Esta cartilla contiene una serie de elementos básicos para facilitarle un conocimiento claro y preciso del ajedrez. Siguiendo las orientaciones de esta cartilla se podrán alcanzar las habilidades y destrezas elementales y necesarias para jugar correctamente. Debido a las infinitas posibilidades de movimientos, el ajedrez obliga a los que lo practican a reflexionar detenidamente cada jugada, adquiriendo cada vez un mayor poder análisis. De esta manera, la práctica del ajedrez conduce a aprender a pensar.\r\n\r\nEsperamos que no se limite al estudio de este cuaderno, sino que se proyecte para alcanzar un buen dominio del ajedrez jugando partidas y participando en torneos.",
+            "precio": 14,
+            "categoria": "Ajedrez",
+            "stock": 71,
+            "imagen": "static/images/15572.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 155801,
+        "fields": {
+            "id": 155801,
+            "titulo": "Ajedrez para la enseñanza primaria (Digital)",
+            "autor": "Sergio A. Vicente Martínez",
+            "sinopsis": "El entorno educativo debe potenciar al máximo en los alumnos las capacidades afectivas, sociales, motoras e intelectuales, ya que es el centro del proceso de enseñanza y aprendizaje. \r\n\r\nNos proponemos introducir el ajedrez en el área de Educación Física dentro de la etapa de Educación Primaria con carácter formal, ya que es el periodo más apropiado para poder enseñar este deporte y su multiplicidad de variables que se pueden realizar. \r\n\r\nComo hemos mencionado, el presente libro va destinado a cualquier docente en general, pero en especial al docente especialista en esta materia, ya que esta área, por su carácter lúdico y por el tipo de contenidos que trata, es el escenario más idóneo para poner en práctica el ajedrez. Además, la falta de instalaciones y recursos en algunos centros escolares, junto a las condiciones climatológicas que se pueden presentar, nos obligan a veces a tomar medidas que no están programadas en nuestra labor docente y, por ello, el ajedrez sería una solución interesante para trabajar en ese espacio de tiempo. \r\n\r\nNo es objetivo del libro, a pesar de que existe información en él, servirle al lector una serie de unidades didácticas rígidas a la hora de ponerlas en práctica. Tratamos de dar al docente una serie de orientaciones didácticas basado en lo lúdico, lo creativo, lo constructivo, lo significativo y en la experiencia. Otro objetivo que nos marcamos es potenciar en el alumno, la actividad intelectual sin dejar los lados los aspectos afectivos y sociales, que si podemos conseguir con el ajedrez.",
+            "precio": 26,
+            "categoria": "Ajedrez",
+            "stock": 77,
+            "imagen": "static/images/15580.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 166731,
+        "fields": {
+            "id": 166731,
+            "titulo": "Multidisciplinate (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Combina las artes y creá con tu net:\r\n\r\n<ul>\r\n<li>Entrevista: Pichón Baldinú. El arte y la tecnología</li>\r\n<li>De las vanguardias del siglo xx a nuestros días</li>\r\n<li>Creá una obra multidisciplinaria para tu escuela</li>\r\n<li>Monkey Jam, un programa multidisciplinario</li>\r\n</ul>",
+            "precio": 20,
+            "categoria": "Arte - Bellas Artes",
+            "stock": 12,
+            "imagen": "static/images/16673.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 160831,
+        "fields": {
+            "id": 160831,
+            "titulo": "Teoría de la práctica artística: Fundamentos para una mirada situada del campo estético y cultural (Digital)",
+            "autor": "Mónica Caballero",
+            "sinopsis": "Este libro se encuentra divido en tres partes: La Introducción y la Parte I incluyen reflexiones sobre cómo pensar una teoría de la práctica artística. La Parte II delimita conceptos claves, fundamentos epistemológicos iniciales, a partir de una serie de “diálogos” con estudiantes. La Parte III desarrolla ideas específicas de nuestro campo: la situacionalidad en el marco de la cultura, el fenómeno artístico y las condiciones éticas para pensar lo tecnológico en nuestra época. En sus tres partes, el libro recupera ese estilo claro y coloquial de conversación y discusión interpersonal que hemos ejercido durante casi treinta años en el aula.",
+            "precio": 5,
+            "categoria": "Arte - Bellas Artes",
+            "stock": 42,
+            "imagen": "static/images/16083.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 159121,
+        "fields": {
+            "id": 159121,
+            "titulo": "Guía del Derecho y el Software de Fuentes Abiertas (Digital)",
+            "autor": "Varios",
+            "sinopsis": "A medida que el Software de Fuentes Abiertas (SFA), conocido también en inglés como Open Source Software, adquiere más importancia en todos los sectores de la economía y en la vida personal, se hace más necesario entender cuáles son los derechos y obligaciones de las personas y organizaciones frente al mismo. \r\n\r\nEsta guía pretende presentar y comentar, brevemente y con un enfoque generalista, los principales aspectos jurídicos del SFA. Se trata de un documento divulgativo. Nuestro fn no es redactar un tratado sobre la protección jurídica y la explotación del software distribuido bajo licencias de SFA, sino presentar una guía práctica y accesible a cualquier persona u organización. \r\n\r\nDirigimos esta guía de manera general a las diversas personas, empresas y entidades en todos los sectores que participan la cadena de creación, integración y uso de software de fuentes abiertas. En particular, se dirige a: \r\n\r\n<ul>\r\n<li>Profesionalesenlosdepartamentosdesistemasydetecnologíadelasorganizaciones usuarias de software, tanto en el sector privado (la empresa) como el institucional o público.</li> \r\n<li>Estudiantes, investigadores o profesores universitarios, que desarrollan software en un marco institucional educativo o de manera independiente, solos o con un grupo de trabajo o investigación; con la intención de utilizar o liberar software bajo licencia de fuentes abiertas.</li> \r\n<li>Desarrolladores que participan en proyectos o comunidades ya existentes de software de fuentes abiertas, que suponen la participación de varios actores en la creación y divulgación del software a lo largo del tiempo; así como las personas responsables de los mismos; en particular los responsables de la gestión del código y de la comunidad.</li> \r\n<li>Consultores informáticos (una empresa, un profesional) que proveen soluciones informáticas como respuesta a las necesidades particulares de sus clientes, proporcionando software de nueva creación o integrando y personalizando software y soluciones informáticas de fuentes abiertas de terceros.</li> \r\n<li>Gestores y“propietarios”de proyectos en estas mismas organizaciones que gestionan la adquisición e implementación de proyectos informáticos.</li> \t \r\n<li>Usuarios particulares, que deseen conocer más sobre los derechos y libertades del software de fuentes abiertas y sus aspectos jurídicos. </li>\r\n</ul>\r\n\r\nNuestro objetivo es ayudarles a entender cuáles son los derechos y obligaciones que se derivan de las licencias y el derecho aplicable al software de fuentes abiertas: incentivar su desarrollo, adquisición, uso y liberación; asegurar que sus benefcios son explotados correctamente; y eliminar cualquier reticencia que pueda existir por desconocimiento de las cuestiones jurídicas.",
+            "precio": 5,
+            "categoria": "Aspectos Legales",
+            "stock": 76,
+            "imagen": "static/images/15912.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 165121,
+        "fields": {
+            "id": 165121,
+            "titulo": "Cultura, salud, cine y televisión: Recursos audiovisuales en Ciencias de la Salud y Sociales (Digital)",
+            "autor": "Serena Brigidi (Ed.)",
+            "sinopsis": "Este libro quiere crear una reflexión en torno al uso, creación y elaboración de materiales audiovisuales –documentales, películas, programas televisivos, anuncios y series de televisión– en la didáctica e investigación de las ciencias de la salud y ciencias sociales. \r\n\r\nPara ello se recogen diversas contribuciones realizadas en el marco del Seminario Cultura, Salud y Cine que proceden de diversos campos de saberes: Antropología Médica, Bioética, Historia de la Medicina, Estudios de Género y Física. \r\n\r\nPor una parte, las aportaciones tienen como objetivo explorar algunas categorías diagnósticas utilizadas en los discursos biomédicos y también en términos de identidades, cuerpos y estigmatizaciones (sin olvidar el papel de los profesionales de la salud, pacientes y cuidadores dentro de los recursos audiovisuales). \r\n\r\nPor otra parte, se profundizan los aspectos tecnocientíficos y los procesos de popularización de la ciencia, la medicina y la tecnología presentes en las obras cinematográficas, tanto clásicas como modernas, relacionadas con las ciencias de la salud.",
+            "precio": 16,
+            "categoria": "Cine",
+            "stock": 97,
+            "imagen": "static/images/16512.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 153341,
+        "fields": {
+            "id": 153341,
+            "titulo": "La música en las Maneras de Representación cinematográfica (Digital)",
+            "autor": "Josep Torelló",
+            "sinopsis": "Todavía se puede decir que el cambio más importante en el mundo del cine, el primer gran audiovisual de la historia, se produjo en 1927 con la incorporación del sonido. Comúnmente, se denomina el periodo anterior a esta fecha como cine mudo o silente. Pero el cine nunca fue mudo. Casi siempre había habido un piano o un comentador a pie de pantalla o, cuando no, para las grandes ocasiones, una buena orquesta. \r\n\r\nAhora bien, a finales de la década de 1920, y por más que ya se habían dado algunas experimentaciones al respecto desde principios de ésta e incluso un gran interés desde sus orígenes, el Vitaphone fue el primer sistema eficaz de sonido sincronizado, registrado en grandes discos armonizados con la imagen que, a principios de la década de 1930, fue substituido por el Movietone, que incorporaba la banda sonora en el propio fotograma.\r\n\r\n(...)\r\n\r\nY aquí es donde adquiere un enorme interés el estudio, presente en este libro, que su autor Josep Torelló ha elaborado: en la explicación considerable y novedosa, dentro de la disciplina de los Films Studies, de la presencia de la música en los films a través del desarrollo del lenguaje cinematográfico, y en la demostración de cómo la imagen y la música se han ensamblado, desde sus orígenes, en una expresión conjunta que el autor califica de expresión cinematográfica. \r\n\r\nEn resumen, La música en las maneras de representación cinematográfica profundiza en la relación estética y formal y en la articulación de la imagen y el sonido en el cine, y en sus maneras de representación a lo largo de la historia. Y lo hace con astucia y rigor, pero también, y sin duda, con humildad y entusiasmo, el mismo que aprendí de su autor cuando me convenció completamente de aquella reflexión nietzscheana de que la vida sin música sería un error.",
+            "precio": 29,
+            "categoria": "Cine",
+            "stock": 9,
+            "imagen": "static/images/15334.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 120011,
+        "fields": {
+            "id": 120011,
+            "titulo": "Guionización de series de animación (Digital)",
+            "autor": "Neus Devesa",
+            "sinopsis": "El proceso de escribir una historia de animación no es muy diferente al proceso de creación de cualquier otra historia, ya sea interpretada por actores de carne y hueso, personajes en 2D o 3D; vaya a ser transmitida por la televisión o el cine, o ser editada en un libro. El punto de arranque, el momento en el que el creador piensa qué quiere narrar, a quién le pasará la historia y qué cosas sucederán no es diferente, sea cual sea la transformación que después se llevará a cabo. Lo que cambia es el desarrollo de la historia. El medio de comunicación por el que se escribe, en cambio, sí que condiciona enormemente el modo como el guionista, en nuestro caso, desarrolla el guión.\r\n\r\nCada producción audiovisual utiliza unos medios, tiene unos recursos determinados para su realización, tanto técnicos, como económicos. Éstos marcan el modo de convertir aquella idea inicial en un producto acabado. En este sentido, es muy diferente si hablamos de rodar un guión con personas e imágenes reales, que si elaboramos una producción de animación. El guionista primeramente debe dominar el medio para el que trabaja, conocer sus ventajas y limitaciones. De acuerdo con el medio deberá adaptar su historia.\r\n\r\nEs pues el momento de pasar a la acción y descubrir aquellos elementos que nos ayudarán a escribir una historia coherente, bien estructura y que se pueda convertir en una buena producción audiovisual.",
+            "precio": 7,
+            "categoria": "Cine",
+            "stock": 9,
+            "imagen": "static/images/12001.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 118801,
+        "fields": {
+            "id": 118801,
+            "titulo": "Haciendo dibujitos en el Fin del Mundo (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Este libro Haciendo dibujitos en el fin del mundo pretende resumir la experiencia reunida durante los primeros cinco años de funcionamiento de la Escuela para Animadores de Rosario.\r\n\r\nLa Escuela fue fundada en 2006 por una iniciativa conjunta del Centro Audiovisual Rosario y la Isla de los Inventos (instituciones de la Secretaría de Cultura y Educación municipal) y un grupo de animadores independientes y autodidactas que, previamente, habían fundado el taller El Sótano en el mismo local donde solía funcionar el estudio-escuela de Luis Bras. Actualmente, a dicho grupo se han sumado egresados de la Escuela, dándose lugar a la conformación de una cooperativa de trabajo3. En tal sentido, nos proponemos recopilar opiniones e ilustraciones elaboradas por los docentes de la Escuela sobre los contenidos que se despliegan cada año a lo largo del curso y citar artículos o párrafos de referentes notables que consideramos imprescindibles y esclarecedores.\r\n\r\nEl objetivo de la Escuela es reunir cada año a treinta dibujantes, interesados en poner sus dibujos en movimiento para contar historias. En una ciudad que no tuvo y no tiene un desarrollo industrial en la producción de dibujos animados y en medio de una acelerada evolución de las herramientas digitales\r\n\r\npara realizar y distribuir bienes audiovisuales, nuestra apuesta es poner el foco sobre el animador, sus motivaciones, su sensibilidad y su visión particular de la realidad, valorando la diversidad y la condición humana.",
+            "precio": 13,
+            "categoria": "Cine",
+            "stock": 77,
+            "imagen": "static/images/11880.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 116231,
+        "fields": {
+            "id": 116231,
+            "titulo": "Música e Imágenes hasta la llegada del Cine (Digital)",
+            "autor": "Montserrat Armell Femenía & Antonio Ezquerro Esteban",
+            "sinopsis": "La 'pre-historia' del cine hablado, en lo relativo a la coordinación de imágenes en movimiento y setido, supone un período extensísimo de tiempo, que abarca miles de años, desde la ilustración sonora de sombras proyectadas documentada en la antigua China, hasta prácticamente los albores del cinematógrafo, un avance tecnológico impensable — hoy en día más que nunca — sin la aportación que música y sonido han hecho al denominado séptimo arte. \r\n\r\nEl presente trabajo pretende ofrecer una panorámica de lahistoria de la —documentadamente inconexa, aunque continua— preocupación humana por fijar el movimiento de un modo visual y sonoro a un tiempo, prestando particular atención a algunos logros técnicos de especial relevancia (la linterna mágica, la armónica de cristal, las fantasmagorías, el teatro de sombras), dentro del recorrido que facilitaría, ya entrado el siglo XX, el nacimiento del cine sonoro. Una mera introducción a un mundo fascinante y deplena actualidad, que, en el terreno puramente musicológico, por lo prácticamente virgen a fecha de hoy (y la escasísima y marginal bibliografía al respecto es la mayor prueba de ello), precisaría de nuevos y más detallados estudios. ",
+            "precio": 24,
+            "categoria": "Arte - Bellas Artes",
+            "stock": 92,
+            "imagen": "static/images/11623.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 170111,
+        "fields": {
+            "id": 170111,
+            "titulo": "George Herriman Krazy Kat es Krazy Kat es Krazy Kat (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Hoy nadie duda del valor artístico del cómic, ni de su influencia en la vanguardia cultural; todos hemos visto cómo el talento de los historietistas ha ido reconociéndose y observándose con mayor interés desde las últimas décadas del siglo pasado. El paradigma de esa nueva mirada hacia lo que originalmente fue considerado un arte menor lo encontramos en la carrera de George Herriman y en particular en su tira cómica más notable, Krazy Kat. Las aventuras del gato Krazy y del ratón Ignatz no alcanzaron popularidad hasta después de la muerte de Herriman pero contaron con la admiración confesa de personalidades tan relevantes y variadas como T. S. Eliot, Pablo Picasso, Umberto Eco, E. E. Cummings o Gertrude Stein. \r\n\r\nHerriman imaginó en sus viñetas un universo variopinto de líneas dinámicas, ritmos vertiginosos y sincopados y extravagantes personajes que parecen cobrar vida más allá del papel. Su gusto por el arte aborigen, por las figuras antropomórficas y los paisajes desérticos, así como la vinculación con el psicoanálisis y el subconsciente que descubrimos en la inversión de la lógica o en la plasmación de comportamientos patológicos donde el dolor aparece como una forma autodestructiva de placer, emparentan a Krazy Kat con aspectos que más tarde desarrollaría el surrealismo.\r\n\r\nCummings, que definió la serie como un “meteórico melodrama burlesco”, o Gertrude Stein, que acostumbraba a leer junto a Picasso la tira Krazy Kat cuando recibía su correo desde Estados Unidos, supieron ver en los trazos y la ironía de Herriman la bandera de un precursor. En 1984 el Museum of Cartoon Art de Rye Brook, en Nueva York, le dedicó su primera gran retrospectiva, culminando el camino al reconocimiento de la crítica que había iniciado años atrás. Desde entonces el interés por este autor y su creación más célebre no ha cesado. Destacan especialmente la publicación Krazy Kat: The Comic Art of George Herriman (1986), editada por Patrick McDonnell, Karen O’Connell y Georgia Riley de Havenon; y la completa biografía Krazy: George Herriman: A Life in Black and White (2016) de Michael Tisserand.",
+            "precio": 30,
+            "categoria": "Cómics",
+            "stock": 47,
+            "imagen": "static/images/17011.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 138071,
+        "fields": {
+            "id": 138071,
+            "titulo": "Dibujo artístico - Nociones Básicas (Digital)",
+            "autor": "Bernardo Ramonfaur Garza",
+            "sinopsis": "Esta pequeña guía pretende ser un apoyo para todo aquel que deseé aprender a dibujar. Se intenta presentar de manera breve y sencilla, mostrando ejercicios, láminas y nociones básicas para dibujar objetos de todo tipo, así como plantas, animales y figura humana. \r\n\r\n¡Te recordamos que lo mas importante en el dibujo es la práctica!\r\n\r\nContenido:\r\n<ul>\r\n<li>Nociones básicas: historia, materiales, ejercicios para trazo, formas y figuras básicas</li>\r\n<li>Formas artificiales</li>\r\n<li>Formas naturales</li>\r\n<li>Cuerpo humano</li>\r\n</ul>",
+            "precio": 17,
+            "categoria": "Cómics",
+            "stock": 75,
+            "imagen": "static/images/13807.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 138051,
+        "fields": {
+            "id": 138051,
+            "titulo": "Mi taller digital: Cómic Digital (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Te damos la bienvenida a la primera sesión del Taller Narrativa Gráfica. Eres parte de un grupo de alumnos que a partir de hoy y durante 9 sesiones más de trabajo, aprenderán a crear sus propios cómics, a través del diseño de su propio proyecto el que podrán compartir con otros estudiantes de tu establecimiento.\r\n\r\nTabla de contenidos:\r\n<ul>\r\n<li>Sesión 1: Bienvenid@s al Taller </li>\r\n<li>Sesión 2 y 3: Guión: Escritura Creativa</li>\r\n<li>Sesión 4 y 5: Layout: Boceteo el E-Cómic</li>\r\n<li>Sesión 6: Rótuls: Escritura de Textos en Bocadillos y/o Cartuchos</li>\r\n<li>Sesión 7: Aplicación del Color en las Páginas Dibujadas</li>\r\n<li>Sesión 8 y 9: Edición y Publicación</li>\r\n</ul>",
+            "precio": 15,
+            "categoria": "Cómics",
+            "stock": 77,
+            "imagen": "static/images/13805.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 111331,
+        "fields": {
+            "id": 111331,
+            "titulo": "Cómic e Ilustración 2012 (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Los premios Injuve para la Creación Joven se han consolidado a lo largo de estos años como un referente de la situación del arte emergente en España. Por este motivo supone una gran satisfacción para la Dirección de Relaciones Culturales y Científicas de AECID poder formar parte de este proyecto mediante la colaboración con Injuve en la difusión de estos premios en el exterior.\r\n\r\nEl origen de esta colaboración se encuentra en una mirada compartida sobre la importancia que tiene el desarrollo de las capacidades de la juventud, así como el valor y el potencial que presentan los procesos creativos como elementos fundamentales para el desarrollo humano. El modo en el que se concreta consiste en la itinerancia de las obras premiadas a través de la Red de Centros Culturales de España en el Exterior que AECID tiene distribuidos por Iberoamérica y Guinea Ecuatorial, así como por otros países del mundo a través de las Oficinas Culturales de las Embajadas de España.\r\n\r\nEsta colaboración con INJUVE constituye un buen ejemplo de trabajo de forma coordinada de dos instituciones en la elaboración de programas para proyectar la cultura en el exterior y permite además, una notable optimización de recursos.\r\n\r\nPor todo ello, quiero agradecer al Instituto de la Juventud su esfuerzo y felicitar a todos los artistas participantes, con la voluntad de que esta colaboración siga progresando.",
+            "precio": 23,
+            "categoria": "Cómics",
+            "stock": 10,
+            "imagen": "static/images/11133.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 146351,
+        "fields": {
+            "id": 146351,
+            "titulo": "Git Fundamentos (Digital)",
+            "autor": "Jesús Amieiro Becerra",
+            "sinopsis": "Este es el primero de una serie de libros sobre Git, un sistema de control de versiones desarrollado por Linux Torvalds en el año 2005 y que se ha hecho tremendamente popular gracias a servicios como GitHub y a su amplia aceptación en proyectos importantes como el Kernel de Linux, Android, Ruby on Rails, Eclipse, GNOME, KDE, Qt, Perl o PostgreSQL o por empresas como Google, Facebook, Microsoft, Twitter, LinkedIn o Netflix.\r\n\r\nSi eres programador, desarrollador web, administrador de sistemas, diseñador, ... es muy probable que en algún momento de tu trabajo te encuentres con un proyecto en el que tengas que colaborar con otras personas usando Git. Puede que trabajes solo pero que te interese tener un seguimiento y control de tu trabajo. En estos dos casos y en muchos más un conocimiento más o menos profundo de Git te permitirá ser mucho más productivo en tu trabajo y, sobre todo, evitar muchos de los problemas con los que se encuentra a menudo la gente que no trabaja con un sistema de control de versiones.\r\n\r\nSi tu ámbito de trabajo es técnico y aún no usas Git, cuando lleves unos meses usándolo te preguntarás cómo es posible que no lo hubieras empezado a usar antes.\r\n\r\n<strong>Aviso: Este libro está en versión alfa</strong>. Esto quiere decir que le faltan contenidos y, aunque hemos tratado de evitar cualquier tipo de error, puede que encuentres alguno. ",
+            "precio": 20,
+            "categoria": "Control de Versiones",
+            "stock": 29,
+            "imagen": "static/images/14635.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 166571,
+        "fields": {
+            "id": 166571,
+            "titulo": "Diseño de interacción (Digital)",
+            "autor": "Eloi Maduell i García & Santiago Vilanova Ángeles",
+            "sinopsis": "La explosión de la electrónica de consumo iniciada en los años cincuenta, que ha ido en progresión exponencial hasta hoy en día, ha inundado nuestras vidas de un gran número de aparatos electrónicos con numerosas funciones. Los primeros dispositivos electrónicos de consumo, como las radios o los televisores, ya incorporaban, de una manera u otra, interfaces de control mediante botones y potenciómetros que facilitaban a los usuarios el manejo de los aparatos.\r\n\r\nLa revolución digital iniciada en los años ochenta representa un paso más en la sofisticación y las posibilidades de estos artefactos electrónicos, que actualmente se han convertido en elementos imprescindibles de nuestras actividades cotidianas.\r\n\r\nLa gran proliferación de ordenadores, videoconsolas, televisores, calculadoras, teléfonos móviles, teclados electrónicos, etc., y la creciente incorporación de funcionalidades a estos aparatos han obligado a los diseñadores y a los fabricantes a hacer estudios orientados a la usabilidad de los productos para facilitar a los usuarios la interacción con los dispositivos.\r\n\r\nEn este contexto emerge la disciplina del diseño de interacción, que tiene el objetivo de hacer más amigable el uso de los aparatos.\r\n\r\nContenido: \r\n<ul>\r\n<li>Teclados</li>\r\n<li>Dispositivos apuntadores</li>\r\n<li>Análisis de audio</li>\r\n<li>Dispositivos electrónicos</li>\r\n<li>Visión artificial</li>\r\n<li>Comunicación y tratamiento de datos</li>\r\n</ul>",
+            "precio": 22,
+            "categoria": "Diseño / 3D",
+            "stock": 30,
+            "imagen": "static/images/16657.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 169971,
+        "fields": {
+            "id": 169971,
+            "titulo": "Las formas de la educación (Digital)",
+            "autor": "Pablo Campos Calvo-Sotelo & Laura Luceño Casals",
+            "sinopsis": "La Educación posee forma. Esta cualidad, inherente a los procesos formativos del ser humano, puede constatarse a lo largo de los siglos. El presente texto desarrolla un conjunto de argumentos teóricos sólidos, orientados a dos objetivos básicos: Investigar la conexión histórica entre las dimensiones arquitectónica y educativa, en clave de innovación y creatividad. Proponer un elenco de estrategias creativas que puedan ser útiles para que las universidades, cuando planifiquen sus implantaciones urbanístico-arquitectónicas. Así, una de las intenciones subyacentes es establecer sinergias entre tres aspectos: los expresados argumentos teóricos, las referencias proyectuales, y el correspondiente a las actividades pedagógicas desarrolladas dentro de disciplinas íntimamente relacionadas con la mencionada creatividad. Dichas sinergias convergen en el presente trabajo, con el fin de impulsar un corpus temático que, combinando la referida base conceptual con la siempre ilustrativa praxis (tanto educativa como arquitectónica), sirva como herramienta válida para inspirar procesos de recualificación pedagógica y espacial en instituciones de Educación Suprior. Bajo una perspectiva global, este texto es el resultado de acciones de innovación llevadas a cabo por sus dos autores en los últimos años, combinando iniciativas de investigación y enseñanza en las áreas de conocimiento de Arquitectura y Moda, que tradicionalmente han compartido un conjunto de rasgos compositivos en sus diseños. Siguiendo un impulso global dirigido a fomentar la creatividad, fueron realizadas en la Escuela Politécnica Superior (USPCEU), y en el Centro Superior de Diseño de Moda de Madrid (UPM). \r\n\r\nEn añadidura, se analiza la relación existente en dichas actividades de innovación entre los aspectos educativos y los espaciales. En consecuencia, este trabajo se caracteriza por su perfil interdisciplinar, que puede promover futuros proyectos de Enseñanza/Aprendizaje creativos en diferentes áreas de conocimiento. La intención general es aportar a las universidades experiencias innovadoras que puedan ser de ayuda a todas ellas para promover optimizaciones consistentes de su misión, afectando tanto a la dimensión educativa como a su forma urbanístico-arquitectónica.",
+            "precio": 26,
+            "categoria": "Educación",
+            "stock": 79,
+            "imagen": "static/images/16997.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 169311,
+        "fields": {
+            "id": 169311,
+            "titulo": "Introducción a los discursos académicos y científicos (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Este texto es en principio una introducción a los discursos circulantes en la Universidad y a las herramientas básicas para su lectura, su análisis y producción.\r\nEl objetivo central no es teórico sino didáctico. El cuadernillo está dirigido a las estudiantes y los estudiantes ingresantes a la UARG-UNPA con el propósito de iniciarlos en el uso de los discursos académicos y científicos además del objetivo transversal de echar luz sobre la cuestión de la función social de los discursos en los diversos ámbitos que, como seres sociales, nos toca vivir.\r\n\r\nPoder, educación, acción comunicativa, rol social estarán integrados al estudio de los discursos tal como circulan en nuestra sociedad, especialmente en los ámbitos académicos y científicos.\r\nDesarrollaremos el tema del Análisis del Discurso como técnica y como ámbito del conocimiento sólo en el capítulo V y de manera sumaria.",
+            "precio": 26,
+            "categoria": "Educación",
+            "stock": 93,
+            "imagen": "static/images/16931.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 169031,
+        "fields": {
+            "id": 169031,
+            "titulo": "Autocruzados (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Autocruzados es una producción de ficción esccrita del Laboratorio de Ideas y Textos Inteligentes Narrativos (LITIN). \r\n\r\nDoce escritores jóvenes, estudiantes de Periodismo de la Universidad de La Plata, autoficcionaron sus infancias y sus presentes. Los textos fueron discutidos y corregidos colaborativamente. El resultado es un continuo significativo sobre un país y una época marcada por un estallido social insoslayable: diciembre de 2001. \r\n\r\nAutocruzados es producto de una experimentación promovida por los directores del LITIN que incluyó la posibilidad de que cada autor escribiera su versión de una escena del relato de otro participante. De allí el nombre del libro: al recorrer sus páginas el lector se encontrará con una serie de autoficciones -género literario a caballo entre la biografía y la ficción- cruzadas por una voz narrativa que es tan ajena como generacional, y que da cuenta de distintos rincones geográficos de nuestro país, porque de distintos lugares son los autores que se sentaron a recordar y recrear los primeros y los más recientes años de su vida.",
+            "precio": 15,
+            "categoria": "Ensayos / Novelas",
+            "stock": 6,
+            "imagen": "static/images/16903.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 168991,
+        "fields": {
+            "id": 168991,
+            "titulo": "El hombre que plantaba árboles (Digital)",
+            "autor": "Jean Giono",
+            "sinopsis": "El hombre que plantaba árboles» (en francés: L'homme qui plantait des arbres) es un cuento alegórico del autor francés Jean Giono,1 publicado en 1953. Cuenta la historia de los esfuerzos de un pastor para convertir un desolado valle en las estribaciones de los Alpes, cerca de la Provenza, en un bosque a lo largo de la primera mitad del siglo XX.\r\n\r\nUna parábola sobre la relación entre el hombre y la naturaleza, una historia ejemplar sobre la capacidad humana para alcanzar cualquier objetivo que se plantee. Durante uno de sus paseos por la Provenza, el escritor francés Jean Giono conoció a una persona inolvidable: un pastor solitario y apacible, de pocas palabras, que disfrutaba de una vida tranquila y reposada, entre ovejas y perros. Sin embargo, bajo la sencillez y la soledad en la que vive, este hombre está cumpliendo una inmensa labor, una acción que habrá de cambiar la faz de su tierra y la vida de las generaciones futuras.\r\n\r\n",
+            "precio": 27,
+            "categoria": "Ensayos / Novelas",
+            "stock": 15,
+            "imagen": "static/images/16899.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 164041,
+        "fields": {
+            "id": 164041,
+            "titulo": "Certamen literario para el alumnado Ana Mª Aparicio Pardo relatos premiados (Digital)",
+            "autor": "Julia Vicente Fresneda (Coord.)",
+            "sinopsis": "El cuento es el género literario primigenio, el más espontáneo y natural, transmitido oralmente generación tras generación a lo largo de los siglos. El cuento. Literatura libre, fresca, sin reglas, convencionalismos o ataduras. El cazador o la muchacha asombrando a la tribu en interior de la caverna, incluso inventando palabras nuevas que el clan debió de adoptar a partir de ese instante, porque el lenguaje estaba naciendo en aquellos tiempos y había mucho que contar. Cuentos impregnados de sabiduría que se narraban en el Ágora de Atenas. Cuentos junto a las fogatas encendidas por las legiones de César. Cuentos sagrados de un joven y sabio rabí a orillas del Mar de Galilea (que alguien les dio el nombre de parábolas). Cuentos de juglares en una plaza de Toledo o de Hita allá por la Edad Media. Cuentos en los desiertos de Arabia, referidos durante una mágica noche que equivalió a mil y una de nuestras noches. Cuentos que un faquir de Calcuta dedicó a la Luna Nueva. Alucinados cuentos en la inmensidad de la Biblioteca de Buenos Aires, donde un hombre imaginó mundos tan fascinantes como sólo podría verlos un ciego. La madre que duerme a su hijo contándole las aventuras de Pulgarcito o las penalidades de Cenicienta. Palabras, palabras, palabras, dijo Hamlet. Cuentos. Nada más que cuentos. Nada menos que cuentos.\r\n\r\nEl Certamen “Ana María Aparicio” nació para rendir un sentido homenaje de cariño y respeto a una gran profesora tempranamente fallecida. No puede imaginarse mejor homenaje a quien dedicó su vida a la docencia que premiar en su nombre la creatividad de los jóvenes y fomentar la escritura de pequeñas grandes historias. Grandísimas a pesar de su brevedad, como tendrá oportunidad de comprobar el discreto lector cuando lea los relatos ganadores, recopilados en ese volumen donde se recogen los cuentos de varias ediciones del certamen. La mayoría son obras creadas por jóvenes, por adolescentes, acaso las voces más libres y auténticas de todas a la hora de reunir palabras para contar. Cuentos. Fantásticos o realistas. Románticos. De vampiros o de ciencia ficción. Que tratan de los horrores de la guerra y la fragilidad de los derechos humanos. Narraciones detectivescas, de aventuras o de ambiente cotidiano.",
+            "precio": 9,
+            "categoria": "Educación",
+            "stock": 76,
+            "imagen": "static/images/16404.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 154231,
+        "fields": {
+            "id": 154231,
+            "titulo": "Introducción a la filosofía y a la argumentación filosófica (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Recopilación de trabajos que versan sobre distintos aspectos de la práctica filosófica con el objetivo de introducir en la materia a los estudiantes del área.\r\n\r\nTabla de contenidos:\r\n\r\n<ul>\r\n<li>La Filosofía medieval y el tránsito hacia la modernidad</li>\r\n<li>La subjetividad cartesiana</li>\r\n<li>La noción de “identidad personal” en el Tratado de la Naturaleza Humana de David Hume</li>\r\n<li>La teoría del conocimiento en Kant</li>\r\n<li>G. W. F. Hegel. El idealismo absoluto</li>\r\n<li>Marx, fuera de sus límites</li>\r\n<li>Una aproximación a la filosofía de Nietzsche</li>\r\n<li>Husserl y la fenomenología</li>\r\n<li>Subjetividad, corporalidad y percepción en la filosofía de Merleau-Ponty</li>\r\n<li>Existencialismo, subjetividad y humanismo</li>\r\n<li>La subjetividad como normalidad, el poder como productor y las prácticas sociales de control</li>\r\n<li>Análisis y reconstrucción de argumentos</li>\r\n<li>Herramientas para la evaluación de argumentos</li>\r\n<li>Argumentos filosóficos</li>\r\n<li>El ensayo argumentativo</li>\r\n</ul>",
+            "precio": 16,
+            "categoria": "Filosofía",
+            "stock": 58,
+            "imagen": "static/images/15423.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 140101,
+        "fields": {
+            "id": 140101,
+            "titulo": "Casa Accesible: Pautas básicas para aplicar en el diseño de viviendas (Digital)",
+            "autor": "Mariela Fernández-Bermejo",
+            "sinopsis": "La elaboración de este libro nace con el objetivo de ofrecer una serie de buenas prácticas para el diseño, construcción o reforma de las distintas dependencias de las que suele constar una vivienda y su entorno, de forma que cualquier usuario o profesional pueda tener una referencia básica para el diseño de viviendas accesibles y versátiles, además de conocer las ventajas que se consiguen aplicando las correctas medidas y dimensiones en materia de Accesibilidad Universal, Usabilidad y Diseño Para Todos desde los principios del diseño de una vivienda o edificio de viviendas.\r\n\r\nSe debe destacar que para la elaboración de este libro se ha realizado un profundo estudio de la normativa vigente en materia de vivienda y accesibilidad en España,teniendo en cuenta tanto normativa a nivel nacional como el Código Técnico de la Edificación, así como referencias de diferentes normativas autonómicas que nos parecen de alta calidad. También se han estudiado normativas y recomendaciones internacionales como las que se encuentran en la Americans with Disabilities Act (ADA).\r\n\r\nPor este motivo, hay que resaltar que todos los parámetros expuestos en este libro deben siempre ser contrastados con la norma vigente en cada Comunidad Autónoma, Estado o Región, que en algunos casos podría resultar algo diferente. Si bien es cierto, se ha comprobado en varios testeos previos que en la mayoría de los casos aplicando estos parámetros, se cumplen casi todas las normativas.",
+            "precio": 21,
+            "categoria": "Geografía / Turismo",
+            "stock": 93,
+            "imagen": "static/images/14010.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 170541,
+        "fields": {
+            "id": 170541,
+            "titulo": "Formas del pasado : Conciencia histórica, historiografías, memorias (Digital)",
+            "autor": "Varios",
+            "sinopsis": "El presente libro se concentra en lo que se considera su principal aporte colectivo: adentrarse en los debates acerca de la conciencia histórica como actividad práctica, como conciencia en acto. Concebirla de este modo y, por lo tanto, susceptible de ser indagada empíricamente, es una de las principales conclusiones a que llevó la reflexión colectiva y, al mismo tiempo, un hilo conductor de los distintos trabajos que componen el volumen. \r\n\r\nEl libro en su conjunto investiga la conciencia histórica en acto desde distintos recortes temáticos: la producción historiográfica como espacio de formulación de conciencia histórica en que distintas nociones de estructura, sujeto y proceso interactúan de manera explícita; debates intelectuales y prácticas culturales en los que se ponen en juego formas diversas de articular pasado, presente y futuro; las controversias en torno a la memoria social del pasado reciente de radicalización política y represión dictatorial. \r\n\r\nEn conjunto, se pone en foco la compleja conexión entre historia y filosofía para leer desde allí la lógica de ciertos cambios de perspectiva en el tratamiento del conocimiento histórico que construyen los sujetos. Por otra parte, se privilegia la mirada sobre las formas que adquiere el pasado en la sociedad argentina, analizando ciertos momentos que resultan claves en la construcción de una conciencia de nación; intervenciones cuestionadoras de los sentidos hegemónicos de sujeto, proceso histórico e identidad nacional; debates y controversias, en fin, como espacios y prácticas de reescritura de la historia nacional.",
+            "precio": 18,
+            "categoria": "Historia",
+            "stock": 33,
+            "imagen": "static/images/17054.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 168901,
+        "fields": {
+            "id": 168901,
+            "titulo": "Antropología médica en la Europa meridional (Digital)",
+            "autor": "José M.ª Uribe Oyarbide & Enrique Perdiguero-Gil (Eds.)",
+            "sinopsis": "Este texto es fruto del simposio «De la medicina popular a la atención primaria: el pluralismo asistencial y la antropología médica española (1980–2011)» desarrollado en León en el marco del XIII Congreso de Antropología de la Federación de Asociaciones de Antropología del Estado Español. Allí se trató de hacer un repaso y balance de una primera época de la antropología médica española, aquella que va del texto cuasi fundacional de M. Kenny y J. De Miguel La antropología médica en España hasta la entrada en el siglo xxi. Estos treinta años han permitido que pasemos de un abordaje básicamente descriptivo y enumerativo sobre otras formas de enfermar, otras visiones del curar y otros espacios de sanar, a una mirada crítica y atenta a la pluralidad de recursos que tenemos a nuestro alrededor, y a las implicaciones técnicas, ideológicas y normalizadoras de dichos recursos.\r\n\r\nLos contenidos de dicho simposio y las colaboraciones que de él surgieron y que aquí incluimos se pueden articular en torno a tres ejes que, jugando con el motto del congreso, reﬂejan «Memorias», «Lugares» y «Tiempos».",
+            "precio": 17,
+            "categoria": "Ciencia",
+            "stock": 21,
+            "imagen": "static/images/16890.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 168881,
+        "fields": {
+            "id": 168881,
+            "titulo": "Aspectos de la historia del Imperio Romano (Digital)",
+            "autor": "Diego Santos (Ed.)",
+            "sinopsis": "Este libro reúne trabajos sobre distintos aspectos de la historia del Imperio Romano desde su surgimiento hasta su crisis terminal en Occidente. La sociedad romana es abordada desde puntos de vista políticos, económicos y sociales, en la medida en que estos pueden ser separados. Su publicación busca acercar al mundo hispanoparlante estudios actualizados acerca de este período histórico para ser utilizados en la enseñanza de grado de la educación superior y universitaria. Esperamos que impulse la curiosidad de los alumnos sobre esta época, al mostrar su complejidad y lo que podemos aprender de ella para la comprensión de la sociedad en la que vivimos.\r\n\r\nNathan Rosenstein y Robert Morstein-Marx analizan la transformación de la república romana de una organización política basada en un conjunto de magistraturas e instituciones como los cónsules, los tribunos de la plebe, el senado y los comicios, a una res publica encabezada por un Princeps. Parten de las autorizadas visiones de Maquiavelo y Montesquieu —las instituciones creadas para gobernar una ciudad-Estado eran inconsistentes con la administración de un gran imperio— para elaborar su propia hipótesis de por qué se produjo este cambio. Ellos prestan atención al colapso moral que señalan las fuentes antiguas y llegan a la conclusión de que la concentración de la riqueza producto de las nuevas oportunidades que implicó la conquista del mundo mediterráneo creó una mayor competencia dentro de la élite, que terminó por quebrar su cohesión interna como grupo.",
+            "precio": 30,
+            "categoria": "Historia",
+            "stock": 39,
+            "imagen": "static/images/16888.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 167031,
+        "fields": {
+            "id": 167031,
+            "titulo": "El tablero medieval de cálculo y las operaciones con números romanos: estudio histórico y pedagógico (Digital)",
+            "autor": "José María Núñez",
+            "sinopsis": "Se describe el fundamento del tablero medieval de cálculo y su uso para la realización de operaciones aritméticas. Se muestra la sencilla operativa de este instrumento y cómo el sistema se adecua perfectamente a la escritura utilizando números romanos. La descripción se complementa con diversas consideraciones tanto históricas como pedagógicas. Así, se analizan sus antecedentes, y puesto que el tablero de calcular es la evolución del ábaco romano, el trabajo comienza con un breve estudio de este instrumento de cálculo basado exclusivamente en los datos arqueológicos y documentales conservados. \r\n\r\nTambién, y a partir del análisis de la utilización del tablero, ofrecemos una visión más completa de los factores que explican la resistencia ofrecida por la sociedad europea a la introducción del sistema de numeración indo arábigo y su metodología algorítmica. \r\n\r\nFinalmente, se plantea un estudio comparativo entre la metodología del tablero y la algorítmica tradicional mostrándose las semejanzas estructurales que subyacen entre ambas metodologías de cálculo. ",
+            "precio": 24,
+            "categoria": "Historia",
+            "stock": 66,
+            "imagen": "static/images/16703.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 166361,
+        "fields": {
+            "id": 166361,
+            "titulo": "Potugués: Serie para la enseñanza en el modelo 1 a 1 (Digital)",
+            "autor": "Germán E. Correa & Marco A. Rodríguez",
+            "sinopsis": "Los cuadernillos de la Serie para la enseñanza en el modelo 1 a 1 les presentan a los docentes un conjunto de reflexiones, sugerencias y secuencias didácticas para trabajar los contenidos curriculares de las diferentes áreas.\r\n\r\nComo es habitual en este tipo de materiales, se trata de propuestas que podrán implementarse con las adecuaciones que cada contexto requiera y con actividades que los docentes podrán diseñar para el aula 1 a 1 a partir de los programas, los dispositivos y las aplicaciones disponibles tanto en las netbooks como en el portal educ.ar.\r\n\r\nEn el caso de las lenguas extranjeras, de acuerdo con el enfoque que se viene construyendo en el área y subyace a los Núcleos de Aprendizajes Prioritarios, la enseñanza de las diferentes lenguas, integrada al conjunto de saberes que circulan en la escuela, apunta a la educación lingüística –en el acceso a la cultura letrada, la reflexión sobre las lenguas y el lenguaje y el reconocimiento y la valoración de la diversidad– y a los procesos de construcción de la identidad sociocultural de los adolescentes y jóvenes de nuestro país.\r\n\r\nDesde esta perspectiva, las sugerencias para el aula 1 a 1 de francés, italiano y portugués de esta Serie presentan secuencias didácticas relacionadas con saberes lingüísticos, metalingüísticos e interculturales a través de espacios para la oralidad, la lectura o la escritura, instancias para la comprensión de funcionamientos lingüísticos específicos y para la percepción de semejanzas, diferencias u otras relaciones entre estas lenguas y el español y propuestas que orientan hacia un diálogo intercultural entre las culturas ajenas y las propias.",
+            "precio": 17,
+            "categoria": "Educación",
+            "stock": 63,
+            "imagen": "static/images/16636.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 158621,
+        "fields": {
+            "id": 158621,
+            "titulo": "Acerca de la Didáctica e Investigación en Lengua Extranjera (Digital)",
+            "autor": "Varios",
+            "sinopsis": "En el marco de las reuniones académicas organizadas por el Departamento de Lenguas con el fin de mejorar la calidad de la enseñanza de Lenguas Extranjeras, los días 21 y 22 de noviembre de 2012 se realizaron las TERCERAS JORNADAS DE INVESTIGACIÓN Y CUARTAS JORNADAS DE PRODUCCIÓN DEL DEPARTAMENTO DE LENGUAS. \r\n\r\nEsta publicación es el resultado de un espacio que pretendió y sin dudas logro, alentar la difusión y debate acerca de experiencias didácticas innovadoras, prácticas de investigación y resultados de las mismas desarrolladas en nuestro contexto. Durante el transcurso de las Jornadas se generaron importantes momentos de intercambio y discusión de problemáticas diversas. \r\n\r\nLas ponencias compartidas por los disertantes – docentes, investigadores, becarios y tesistas – se enmarcaron en diferentes temáticas relacionadas con las áreas de Lingüística, Lengua, Literatura, Cultura y Formación Docente entre otras y permitieron conocer diferentes posicionamientos acerca de COMO pensar la investigación y la didáctica en Lenguas Extranjeras. \r\n\r\nEl presente compendio de algunos de los trabajos presentados persigue el fin de afianzar las redes de intercambio de experiencias, promover el estudio y la investigación y propiciar el perfeccionamiento de la formación docente a la luz del nuevo perfil del docente de Lenguas Extranjeras en el contexto nacional y mundial.",
+            "precio": 22,
+            "categoria": "Educación",
+            "stock": 54,
+            "imagen": "static/images/15862.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 156191,
+        "fields": {
+            "id": 156191,
+            "titulo": "La Traductología: Miradas para comprender su complejidad (Digital)",
+            "autor": "Beatriz E. Cagnolati (Comp.)",
+            "sinopsis": "El libro que presentamos es el producto de los intercambios de ideas que fuimos realizando durante el desarrollo del proyecto de investigación Estudio crítico de modelos y enfoques traductológicos, originados en la segunda mitad del siglo XX. La evolución de los estudios sobre la traducción que han ido ganando autonomía desde la mitad del siglo pasado ha dado origen a la nueva disciplina Traductología, de impronta multi e interdisciplinaria, puesto que, por un lado se nutre de los más diversos enfoques lingüísticos, textuales, discursivos, comunicativos, semióticos, pragmáticos, cognitivos, culturales, y por el otro, ha ido construyendo un discurso mediante la resignificación de conceptos provenientes de los enfoques señalados y la creación de otros. \r\n\r\nLos contenidos que exponemos están vinculados con el recorrido, los vaivenes y avances de las reflexiones sobre la traducción y, al mismo tiempo, con el tratamiento de los temas que, a nuestro entender, son indispensables para comprender cómo se ha ido desarrollando la Traductología. De allí que este libro está pensado especialmente para los estudiantes avanzados de traducción, como así también para los formadores de traductores puesto que la información que se brinda en cada capítulo está acompañada de una bibliografía que fue materia de discusión a lo largo del proyecto, pero que a su vez fue incrementada y actualizada por cada autora, según el tema específico tratado.",
+            "precio": 24,
+            "categoria": "Idiomas",
+            "stock": 40,
+            "imagen": "static/images/15619.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 155781,
+        "fields": {
+            "id": 155781,
+            "titulo": "El español y el japonés (Digital)",
+            "autor": "Noritaka Fukushima",
+            "sinopsis": "El presente libro constituye un compendio de los trabajos más relevantes sobre cuestiones relacionadas con la lengua española y japonesa. Dichas lenguas pertenecen a familias lingüísticas totalmente ajenas y, al parecer, poseen estructuras profundamente distintas, incluso incompatibles. No obstante, es precisamente esta aparente brecha la que ofrece nuevas perspectivas que posibilitan una mejor caracterización del japonés y el español y que, en consecuencia, conducirá a un mayor entendimiento de lo que es realmente el lenguaje humano. \r\n\r\nEste libro está compuesto por dos secciones principales. La primera reúne cinco capítulos sobre el modo y la modalidad. En los tres primeros, hemos trazado la órbita de los descubrimientos realizados por filólogos y lingüistas sobre la función sintáctica, semántica y pragmática de los verbos y la oración. En los dos capítulos siguientes ofrecemos dos humildes contribuciones basadas en las propuestas resumidas en los capítulos anteriores: un estudio sobre variación geográfica y otro de lingüística aplicada. \r\n\r\nLa segunda sección abarca tres capítulos sobre el contraste de distintos aspectos del español y el japonés. El primero analiza la función informativa de las oraciones en español, y el segundo se enfoca en la expresividad pragmática de cierto tipo de oraciones en la misma lengua. En ambos capítulos, el japonés sirve como una herramienta para profundizar en estos temas. Finalmente, el último capítulo aborda cuestiones relacionadas con la traducción japonés-español.",
+            "precio": 27,
+            "categoria": "Idiomas",
+            "stock": 70,
+            "imagen": "static/images/15578.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 160181,
+        "fields": {
+            "id": 160181,
+            "titulo": "Métodos Estadísticos para Economía y Empresa (Digital)",
+            "autor": "Ana Jesús López Menéndez & Rigoberto Pérez",
+            "sinopsis": "La información económica forma parte de nuestra realidad cotidiana y afecta a nuestras vidas. Estadísticas como el Indice de Precios de Consumo (IPC), la tasa de paro o los índices bursátiles son referencias habituales en los medios de comunicación, por lo que resulta imprescindible conocer su significado y dominar las técnicas estadísticas necesarias para su correcta utilización. \r\n\r\nHace aproximadamente un año, con motivo de la celebración del primer Día Mundial de la Estadística (20-10-2010), la declaración institucional de Naciones Unidas destacaba la importancia de las estadísticas como herramienta para el desarrollo económico y social, y su trascendente papel en la adopción de decisiones gubernamentales, empresariales y personales en una sociedad moderna. \r\n\r\nConvencidos de la importancia de la Estadística, presentamos ahora este texto, cuyo antecedente es el manual Análisis de datos económicos II- Métodos inferenciales publicado en 1997 por Ediciones Pirámide y actualmente descatalogado. Nuestro objetivo al elaborar Métodos estadísticos para Economía y Empresa es contribuir a la difusión de las técnicas estadísticas, animados por nuestras experiencias previas, los comentarios de nuestros colegas universitarios y las posibilidades que ofrecen las nuevas tecnologías para la elaboración de un manual digital y su difusión a través de la Red.",
+            "precio": 14,
+            "categoria": "Marketing / Business",
+            "stock": 28,
+            "imagen": "static/images/16018.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 158121,
+        "fields": {
+            "id": 158121,
+            "titulo": "Técnicas de análisis de datos para la empresa (Digital)",
+            "autor": "Ivan Soler-Ramos & Joan Torrent-Sellens",
+            "sinopsis": "Desde la empresa más pequeña hasta la más grande, todas precisan datos y todas generan datos. La generación de datos y su correcta interpretación y análisis son esenciales para producir el valor de la empresa. Conocer el entorno y los mercados en los que se ubica la actividad empresarial, interpretar sus cambios y prever el futuro, y analizar el proceso interno de generación de valor de la empresa son algunos de los ejemplos en los que el análisis de datos puede ser muy útil. \r\n\r\nDe hecho, para que una empresa funcione correctamente en el mercado es esencial que efectúe una buena toma de decisiones. Esta depende de múltiples cuestiones, pero en este curso nos centraremos en una de ellas realmente importante: el papel de los datos en la toma de decisiones. \r\n\r\nLas decisiones, para ser buenas, se deben guiar por un conocimiento lo más completo posible de aquello que se ha de decidir. Y la información, la buena información, es esencial para lograr el conocimiento que nos conduce hacia una correcta toma de decisiones. A la vez, una de las mejores maneras de obtener una buena información es realizar un análisis de datos cuidadoso.",
+            "precio": 28,
+            "categoria": "Ciencia",
+            "stock": 13,
+            "imagen": "static/images/15812.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 166751,
+        "fields": {
+            "id": 166751,
+            "titulo": "Anímate (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Saca fotos, edita, filma y... ¡hazte la película!\r\n\r\n<ul>\r\n<li>Entrevista: Gabriel Rud, La experimentación como premisa</li>\r\n<li>Carolina Cappa, una apasionada</li>\r\n<li>Experimentá con la técnica de stop motion</li>\r\n<li>¿Cómo hacer un video?</li>\r\n</ul>",
+            "precio": 25,
+            "categoria": "Educación",
+            "stock": 51,
+            "imagen": "static/images/16675.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 161921,
+        "fields": {
+            "id": 161921,
+            "titulo": "Análisis matemático del cancionero popular vasco (Digital)",
+            "autor": "Iñaki Núñez",
+            "sinopsis": "La escasez de estudios y actividades de carácter científico relacionados con el mundo de la música hace más atrayentes las publicaciones destinadas a llenar el vacío que existe en España dentro de este campo. Es el caso del trabajo realizado por Iñaki Núñez en su libro Análisis del Cancionero Popular Vasco de R. M. Azkue. \r\n\r\nLa simple lectura del índice ya hace pensar en el interés del ensayo que el autor presenta, sobre todo al comprobar la pobre bibliografía de que disponemos a la hora de analizar con objetividad la música popular. \r\n\r\nA través de las páginas del libro vamos encontrando las claves necesarias para comprender, además de la música sobre la que el autor desarrolla su estudio, esa otra a la que denominamos culta. \r\n\r\nIñaki Núñez se plantea el trabajo con un gran rigor, que le lleva a aplicar términos procedentes de la Teoría de la Información y a profundizar en conceptos estéticos a través de su matematización. Gracias a ello podemos comprobar de manera clara no sólo el contenido estructural que subyace en el Cancionero Vasco, sino también aspectos referentes a valores formales, históricos, y metafísicos de la música universal; incluso encontramos en su lectura motivo de meditación acerca de lo factible que resulta la música cuando la ponemos al servicio de convencionalismos de orden estético, comercial o publicitario. Toca también, muy de cerca, el tema de la actitud psicológica ante el arte, tema que afecta directamente al arte de vanguardia, cuando nos revela, a través de la mensuración entrópica, los resortes de nuestra capacidad de tiempo-memoria. \r\n\r\nLa aparición de este libro contribuirá, en gran medida, a extender la idea de la necesidad de profundizar, entender, realizar y contemplar la expresión sonora, a la luz de modernos y científicos procedimientos.",
+            "precio": 25,
+            "categoria": "Música",
+            "stock": 44,
+            "imagen": "static/images/16192.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 163571,
+        "fields": {
+            "id": 163571,
+            "titulo": "Security of Networks and Services in an All-Connected World (Digital)",
+            "autor": "Varios",
+            "sinopsis": "This book constitutes the refereed proceedings of the 11th IFIP WG 6.6 International Conference on Autonomous Infrastructure, Management, and Security, AIMS 2017, held in Zurich, Switzerland, in July 2017.\r\n\r\nThe 8 full papers presented together with 11 short papers were carefully reviewed and selected from 24 submissions.  The papers are organized in the following topical sections: security management; management of cloud environments and services, evaluation and experimental study of rich network services; security, intrusion detection, and configuration; autonomic and self-management solutions; and methods for the protection of infrastructure.",
+            "precio": 14,
+            "categoria": "Redes y Sys Admin",
+            "stock": 31,
+            "imagen": "static/images/16357.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 140891,
+        "fields": {
+            "id": 140891,
+            "titulo": "La edad del pixel (Digital)",
+            "autor": "Varios",
+            "sinopsis": "La vida, la religión...el videojuego; todo tiene un principio, un durante y también un final. Como en el origen de la vida, existió un 'desencadenante feliz' que originó la aparición de los videojuegos.\r\n\r\nAlgunos historiadores no cesan en su empeño de buscar explicaciones intentando aportar luz en la búsqueda de los orígenes de los videojuegos; hay otros que hacen de las compañías, máquinas y mascotas su religión. A buen seguro, algunos encontrarán la salvación en los videojuegos, mientras que otros verán al maligno a punto de provocar el mas tremendo de los apocalipsis.\r\n\r\nY es que en cualquier caso la juegología va 'a llegarrrrrr' o mejor dicho ya esta aquí, y es menester comenzar por el principio de los tiempos.\r\n\r\nNuestra historia natural y nuestra historia virtual, tienen muchas cosas en común. En los comienzos nuestro planeta estaba muerto, pero de repente hace millones de años gracias a unas espontáneas reacciones químicas motivadas por una inesperada casualidad cósmica, lograron convertir aquella inerte sopa primitiva en lo que hoy conocemos como 'el código de la vida'.\r\n\r\nEste 'código de la vida' formado por enredadas cadenas binarias representa las informaciones que configuran la vida. El código, permanece estructurado en series y crece continuamente replicándose en cada iteración con estructuras cada vez mas complejas. Al final, la organización de este código se vuelve tan densa y compleja, que las nuevas propiedades resultantes no son sencillas de explicar por referencia a las otras partes constituyentes. Y este es en definitiva, el concepto de la vida que conocemos actualmente.\r\n\r\nDe forma similar a la vida natural surgieron los videojuegos. En los inicios (hace muchos menos años), el primer videojuego salió del fango. Este fango, cual sopa primitiva, estaba formado por aquellos engendros mecánicos provenientes de la revolución industrial, pero fue la chispa de la electricidad la que consiguió dar vida a esta nueva forma de entretenimiento.",
+            "precio": 7,
+            "categoria": "Atari",
+            "stock": 87,
+            "imagen": "static/images/14089.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 155761,
+        "fields": {
+            "id": 155761,
+            "titulo": "Sistemas de Automatización y Robótica para las pymes españolas (Digital)",
+            "autor": "Varios",
+            "sinopsis": "La importancia del sector de la fabricación en la economía de los países se ha puesto de manifiesto en la crisis actual. Todos los expertos abogan por potenciar un sector clave que la sociedad necesita como motor de su economía y que en los últimos años ha sido sometido a una gran presión por parte de países con costes laborales reducidos. Las consecuencias son evidentes y ciertamente traumáticas; deslocalización de muchas empresas y lo que es peor, la desaparición de una parte importante del tejido industrial. \r\n\r\nEn este difícil entorno, las empresas industriales se enfrentan al reto de buscar e implantar nuevas tecnologías productivas y organizativas que les permitan afrontar el futuro con garantía de éxito. Solo un aumento drástico de la productividad que afecte a los costes y a la calidad salvará al sector de la fabricación y sus empleos. La innovación a través de la implantación de nuevas tecnologías, la mejora continua de los procesos mediante herramientas de fabricación esbelta y la colaboración con proveedores constituyen las tres alternativas más consolidadas. Su aplicación y potencial debe ser tomado en consideración por toda empresa que pretenda sobrevivir y tener futuro en el complejo entorno económico que vivimos.",
+            "precio": 6,
+            "categoria": "Marketing / Business",
+            "stock": 29,
+            "imagen": "static/images/15576.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 144481,
+        "fields": {
+            "id": 144481,
+            "titulo": "Automatización industrial (Digital)",
+            "autor": "Varios",
+            "sinopsis": "En las últimas décadas se ha seguido la tendencia de automatizar de manera progresiva procesos productivos de todo tipo. Esta tendencia ha sido y sigue siendo posible gracias al desarrollo y abaratamiento de la tecnología necesaria. La automatización de los procesos de producción persigue los objetivos:\r\n\r\n<ul>\r\n<li>Mejorar la calidad y mantener un nivel de calidad uniforme.</li>\r\n<li>Producir las cantidades necesarias en el momento preciso.</li>\r\n<li>Mejorar la productividad y reducir costes.</li>\r\n<li>Hacer más flexible el sistema productivo (facilitar los cambios en la producción).</li>\r\n</ul>\r\n\r\nEstos objetivos se han convertido de hecho en requisitos indispensables para mantener la competitividad, por lo que el aumento del nivel de automatización de los procesos es simplemente una necesidad para sobrevivir en el mercado actual.",
+            "precio": 13,
+            "categoria": "Programación",
+            "stock": 14,
+            "imagen": "static/images/14448.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 143581,
+        "fields": {
+            "id": 143581,
+            "titulo": "Glosario de términos y conceptos robóticos (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Este Glosario es parte del material docente elaborado para el MOOC 'Cómo introducir la programación y la robótica educativa en todas las materias'.\r\n\r\nEste MOOC ha sido creado por un equipo multiprofesional para poner en valor, y en práctica, la necesidad de trabajar en equipo y de abrir perspectivas a una sociedad que demanda una nueva manera de entender la educación y la alfabetización en el siglo XXI en relación a la denominada robótica educativa.\r\n\r\nEn este MOOC, se abre la puerta a nuevos caminos que lleven la alfabetización a una concepción de lenguajes en códigos binarios, de pensamiento computacional, de analizar la vida en algoritmos para construir un futuro que tenga en consideración los valores necesarios para el sostenimiento de un planeta habitado por una sociedad más justa y solidaria que utiliza la tecnología para conseguir estos fines.\r\n\r\nEl presente glosario es una breve guía con aquellos términos más comúnmente utilizados en el trabajo y docencia de la robótica educativa.",
+            "precio": 11,
+            "categoria": "Robótica",
+            "stock": 80,
+            "imagen": "static/images/14358.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 104601,
+        "fields": {
+            "id": 104601,
+            "titulo": "Hacking con Buscadores (Google, Bing, Shodan) (Digital)",
+            "autor": "Stakewinner00",
+            "sinopsis": "Con esta guía perteneciente a la colección de trabajos sobre seguridad informática editada por el colectivo HackXCrack, se muestra cómo realizar búsquedas especificas, optimizadas y completas con el fin de obtener la información exacta que se desea.\r\n\r\nPara esto, se repasan algunos operadores interesantes de cada motor de búsqueda (Google y Bing) que permiten, entre otras cosas, buscar dentro de un dominio concreto, un determinado tipo de archivo y ciertas combinaciones no tan populares que consiguen resultados llamativos.\r\n\r\nFinalmente, se presenta también al conocido Shodan, un motor de búsqueda que permite encontrar diferentes tipos de dispositivos (routers, servidores, etc) a través del uso de distintos tipos de filtros. Esto tiene como consecuencia práctica localizar servicios webs que utilicen por ejemplo software concreto como IIS, Apache o similares.\r\n",
+            "precio": 14,
+            "categoria": "SEO / SEM",
+            "stock": 23,
+            "imagen": "static/images/10460.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 58281,
+        "fields": {
+            "id": 58281,
+            "titulo": "VSEO: Manual de Consulta SEO (Digital)",
+            "autor": "Varios",
+            "sinopsis": "El posicionamiento en buscadores, u Optimización de motores de búsqueda es el proceso de mejorar la visibilidad de un sitio web en los resultados orgánicos de los diferentes buscadores. También es frecuente nombrarlo por su título inglés, SEO ( search engine optimization ).\r\n\r\n",
+            "precio": 25,
+            "categoria": "SEO / SEM",
+            "stock": 23,
+            "imagen": "static/images/5828.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 56941,
+        "fields": {
+            "id": 56941,
+            "titulo": "Guía de Recomendaciones SEO de Posicionamiento en Internet (Digital)",
+            "autor": "Varios",
+            "sinopsis": "La Red es en nuestros días una realidad aplastante de la que nadie ya puede escaparse. \r\n\r\nCon el ingente volumen de información en la Red, los buscadores se han convertido en la piedra angular y la puerta de acceso a la Web preferida por los internautas: en definitiva, en los grandes canalizadores del tráfico. Y la búsqueda en el modelo de navegación dominante. En la mayoría de las ocasiones, la actividad de los internautas parte de una búsqueda en su origen. Hasta tal punto que estar en Internet pasa de una u otra manera por estar presente y bien posicionado en los buscadores. Más aún, en países como España, en los que existe un buscador (Google) que domina poderosamente sobre el resto, estar en la Red requiere estar en Google: si no estás en Google, no existes. \r\n\r\nEn un mercado cada vez más competitivo las empresas, y en especial las PYMES, no pueden renunciar a contar con presencia en la Red, una presencia de éxito. Necesitan estar y con ello estar convenientemente posicionadas para poder llegar a sus clientes con sus mensajes, servicios y productos. Conscientes de que en la mayoría de los casos, las PYMES no pueden contar con personal especializado en cada una de las disciplinas, esta guía propone: \r\n\r\n<ul>\r\n<li>Una introducción conceptual sobre el posicionamiento y los buscadores. Las reglas fundamentales que rigen su funcionamiento y el impacto de las mismas. </li>\r\n<li>Una descripción de las barreras más frecuentes que dificultan un adecuado posicionamiento así como la solución para las mismas. </li>\r\n</ul>",
+            "precio": 24,
+            "categoria": "SEO / SEM",
+            "stock": 96,
+            "imagen": "static/images/5694.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 56881,
+        "fields": {
+            "id": 56881,
+            "titulo": "77 Formas de Conseguir Tráfico (Digital)",
+            "autor": "Allan Gardyne",
+            "sinopsis": "Si usted no ha alcanzado un millón de visitas al año, debería encontrar útil este informe.\r\n\r\nCuando se trata de generar tráfico, muchos afiliados y otros dueños de sitios web tienden a quedarse pegados a una rutina confortable. A menudo usamos un pequeño número de técnicas favoritas y raramente nos aventuramos más allá. Espero que este informe le anime a mirar más allá de las técnicas que está usando e intente unas pocas más. Usando una variedad de técnicas más amplia, atraerá nuevos visitantes de lugares nuevos. Cuanto más amplia sea su red de tráfico, más perdurará su negocio.\r\n\r\nUsted probablemente no usará TODOS los métodos que se exponen aquí. Elija los que mejor se adapten a su sitio, sus habilidades, sus intereses y su temperamento. Todas las técnicas que describo aquí requieren trabajo – pero esto es una BUENA cosa.\r\n\r\nMuchos de sus competidores serán demasiado perezosos para hacer el trabajo requerido, de forma que cuando lo haga, su tráfico saltará por encima del de ellos. Para hacer una o dos de las cosas que describe, puede tener que ir a eLance o Rentacoder y contratar un programador. Sin embargo, la gran mayoría de las técnicas son gratuitas y relativamente sencillas. La mayoría de ellas requieren tiempo, no dinero.\r\n\r\n(Allan Gardyne, CEO de AssociatePrograms.com)",
+            "precio": 12,
+            "categoria": "SEO / SEM",
+            "stock": 85,
+            "imagen": "static/images/5688.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 165891,
+        "fields": {
+            "id": 165891,
+            "titulo": "Sistemas operativos en las netbooks: GNU/Linux y Microsoft Windows. Serie instrumental para el modelo 1 a 1 (Digital)",
+            "autor": "Javier Castrillo & Darío Martín Gelbort",
+            "sinopsis": "Este material, destinado a docentes y alumnos, es una guía para conocer en forma básica el sistema operativo Windows y el sistema GNU/Linux. Se brindan elementos para situarse por primera vez en uno u otro sistema, en los elementos de su escritorio, la gestión de programas, carpetas y archivos. \r\n\r\nEl sistema operativo consiste en un conjunto de programas que administran los recursos de la computadora de la forma más eficaz posible. Es el intermediario entre el hardware (los procesadores, las memorias, los dispositivos de entrada y salida) y las diversas aplicaciones que utilizamos a diario. El sistema operativo es el encargado de:\r\n\r\n<ul>\r\n<li>La interfaz gráfica entre el sistema y el usuario, es decir la apariencia visual en la que se nos muestran los programas, archivos y carpetas.</li>\r\n<li>La administración de diferentes usuarios en una misma computadora y la posibilidad de compartir datos con otras computadoras.</li>\r\n<li>La seguridad.</li>\r\n<li>El acceso y la comunicación con los dispositivos de entrada y salida (teclado, mouse, pendrive, impresoras, etc.).</li>\r\n</ul>",
+            "precio": 27,
+            "categoria": "GNU / Linux",
+            "stock": 82,
+            "imagen": "static/images/16589.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 160201,
+        "fields": {
+            "id": 160201,
+            "titulo": "Fundamentos de Sistemas Operativos (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Este libro busca brindar a estudiantes y docentes de las carreras de ingeniería en computación, informática, Ciencias de la Computación y similares un material completo, general y autocontenido sobre la materia de sistemas operativos. No se asume conocimiento previo sobre la temática, aunque se utilizarán conceptos de estructuras de datos y algoritmos básicos.\r\n\r\nActualmente hay vasta bibliografía sobre sistemas operativos, sin embargo la gran mayoría está escrita en inglés, y cuando están disponibles en castellano, su traducción deja mucho que desear, llevando a conceptos confusos y difíciles de comprender. La intención de los autores es que el presente texto provea un material redactado originalmente en castellano, revisado por docentes latinoamericanos utilizando la terminología más adecuada para los alumnos de la región y eliminando muchos de los errores de traducción. \r\n\r\nGeneralmente el material de cursos de sistemas operativos está compuesto por partes de distintos libros, artículos de investigación, recursos en línea, software, ejercitación, etc. Por ello, el alumno debe recurrir a distintas fuentes durante el curso. El presente libro pretende ser de utilidad tanto para alumnos como para docentes como una única publicación autocontenida. Cabe remarcar también que el material bibliográfico generalmente está protegido por derecho de autor, es costoso y en muchos casos de difícil acceso (sobre todo las publicaciones en inglés). \r\n\r\nLos contenidos de la bibliografía clásica de sistemas operativos están basadas en re-ediciones y compendio de libros de hace varias décadas que incluyen temas obsoletos o desactualizados. Hay también desarrollos y tendencias nuevas en el área que aún no han sido integradas en la bibliografía clásica, y mucho menos a las traducciones. También se quiere revisar y actualizar los conceptos clásicos de sistemas operativos incluyendo material de publicación reciente.",
+            "precio": 29,
+            "categoria": "Software General",
+            "stock": 45,
+            "imagen": "static/images/16020.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 159081,
+        "fields": {
+            "id": 159081,
+            "titulo": "Plan Docente para la Asignatura de Administración de Sistemas Operativos (Digital)",
+            "autor": "Julio César González Moreno",
+            "sinopsis": "El Programa de Cooperación con Nicaragua (PCN) es un Proyecto de gran impulso orientado a la formación de capacidades académicas por parte de la Universidad de Alcalá, cuyo objetivo es contribuir al desarrollo de Nicaragua a través del fortalecimiento académico de futuros docentes de la Universidad Nacional Autónoma de Nicaragua, UNAN-León. Un Proyecto alimentado por una visión compartida sobre el papel y la posibilidad de la universidad como agente de desarrollo del conocimiento, la tecnología y la cultura y una filosofía de trabajo planificado, organizado y de medio-largo plazo. \r\n\r\nEn el año 1994 se creó el convenio entre el Departamento de Automática de la Universidad de Alcalá de Henares (UAH) y el Departamento de Computación de la Universidad Nacional Autónoma de Nicaragua (UNAN-León) con el objetivo de impulsar la excelencia en la enseñanza académica en la carrera de Ingeniería en Sistemas de Información (antes Licenciatura en Computación), lo cual ha contribuido y sigue contribuyendo con la formación de mejores profesionales en el área de la informática. \r\n\r\nComo consecuencia del gran impacto que están teniendo las redes y las tecnologías de comunicaciones hoy en día, el departamento de Computación de la UNAN-León decidió agregar, con el apoyo del convenio que tiene con la Universidad de Alcalá de Henares, una nueva opción de carrera profesional: la carrera de Ingeniería en Telemática, la cual contempla un plan de estudios que requiere de un periodo de cinco años de estudios superiores (los tres primeros años son semejantes con la carrera de Ingeniería en sistemas de información) y una dedicación de tiempo completo por parte del estudiante. \r\n\r\nEn el presente documento se aborda el desarrollo del Plan Docente de la asignatura de Administración de Sistemas Operativos que se imparte en el segundo semestre del cuarto año de la carrera (en general octavo semestre de la carrera) de Ingeniería en Telemática de la UNANLeón. \r\n\r\nAdemás de lo mencionado anteriormente también se presentan los siguientes aspectos: \r\n<ul>\r\n<li>La situación actual de la asignatura.</li>\r\n<li>Su relación con otras asignaturas.</li>\r\n<li>La metodología empleada.</li>\r\n<li>El material didáctico de apoyo para impartirla.</li>\r\n<li>El sistema de evaluación.</li>\r\n<li>La planificación temporal.</li>\r\n<li>La presentación de los contenidos teóricos y su respectiva bibliografía.</li>\r\n<li>El desarrollo de las prácticas y su respectiva bibliografía.</li>\r\n</ul>",
+            "precio": 21,
+            "categoria": "Educación",
+            "stock": 63,
+            "imagen": "static/images/15908.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 148461,
+        "fields": {
+            "id": 148461,
+            "titulo": "Elementos de Sistemas Operativos (Digital)",
+            "autor": "Gregorio Fernández Fernández",
+            "sinopsis": "Este documento se ha elaborado a partir de unos apuntes diseñados para la asignatura «Arquitectura de computadores y sistemas operativos» («ARSO»), incluida en el plan de estudios del Grado en Ingeniería Biomédica que se imparte en la Escuela Técnica Superior de Ingenieros de Telecomunicación con la participación de otros cinco centros de la Universidad Politécnica de Madrid.\r\n\r\nTanto el contexto curricular como el entorno profesional de los futuros graduados hacían poco recomendable adoptar como material de estudio algunos de los magníficos libros de texto disponibles sobre estas materias. Se trata de una titulación multidisciplinar cuyo objetivo es la formación de ingenieros capaces de aplicar las tecnologías y desarrollar aplicaciones colaborando con otros profesionales en entornos médicos y sanitarios. Deben conocer los fundamentos de estos temas, pero sin la profundidad requerida por los informáticos, con los que, eventualmente, tendrán que trabajar.\r\n\r\nPor otra parte, tanto en los textos como en los cursos sobre arquitectura y sobre sistemas operativos se supone que el estudiante tiene ya algunos conocimientos sobre la estructura y el funcionamiento de los ordenadores y sobre la representación de datos en binario. Normalmente, con alguna asignatura de nombre «Introducción a la informática», «Fundamentos de ordenadores»... Pero en el plan de estudios la única asignatura previa relacionada con la informática es «Fundamentos de programación», de primer curso; aunque incluye en su introducción algunos elementos superficiales, se centra, sobre todo, en la programación con el lenguaje Java y el entorno Eclipse. Igualmente superficial y sesgada por un punto de vista electrónico es la introducción a los procesadores digitales de la asignatura «Sistemas electrónicos», de segundo curso. Otras asignaturas relacionadas con la informática, que se imparten en el mismo curso que ARSO (tercero), son de un nivel de abstracción más alto: «Algoritmos y estructuras de datos» y «Bases de datos».\r\n\r\nEsta situación nos motivó para elaborar unos materiales de apoyo a la docencia ajustados a los conocimientos previos de los estudiantes y a los objetivos de su formación. Creemos que el resultado, o parte de él, puede ser de utilidad para otras personas ajenas al contexto para el que ha sido concebido, y ese es el motivo por el que lo hacemos público. Para evitar malentendidos del eventual lector, sustituimos en el título el nombre de la asignatura por otro, más largo pero mejor ceñido al contenido.\r\n\r\nEl documento base que se entrega a los estudiantes es el formado por los capítulos 1 a 13 y los dos primeros apéndices. A lo largo del curso se proponen prácticas de laboratorio y ejercicios, y en esta edición se han incluido como apéndices algunos de los realizados en cursos pasados.",
+            "precio": 23,
+            "categoria": "Software General",
+            "stock": 73,
+            "imagen": "static/images/14846.jpg",
+            "escaparate": "False",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 146921,
+        "fields": {
+            "id": 146921,
+            "titulo": "Sistemas Operativos (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Este libro busca brindar a estudiantes y docentes de las carreras de Ingeniería en Computación, Informática, Ciencias de la Computación y similares un material completo, general y autocontenido sobre la materia de Sistemas Operativos. No se asume conocimiento previo sobre la temática, aunque se utilizarán conceptos de estructuras de datos y algoritmos básicos.\r\n\r\nActualmente existe vasta bibliografía sobre Sistemas Operativos, sin embargo la gran mayoría está escrita en inglés, y cuando están disponibles en castellano, su traducción deja mucho que desear, llevando a conceptos confusos y difíciles de comprender. La intención de los autores es que el presente texto provea un material redactado originalmente en castellano, revisado por docentes latinoamericanos utilizando la terminología más adecuada para los alumnos de la región y eliminando muchos de los errores de traducción.\r\n\r\nGeneralmente el material de cursos de Sistemas Operativos está compuesto por partes de distintos libros, artículos de investigación, recursos en linea, software, ejercitación, etc. Por ello, el alumno debe recurrir a distintas fuentes durante el curso. El presente libro pretende ser de utilidad tanto para alumnos como para docentes como una única publicación autocontenida. Cabe remarcar también que el material bibliográfico generalmente está protegido por derecho de autor, es costoso y en muchos casos de difícil acceso (sobre todo las publicaciones en inglés).\r\n\r\nLos contenidos de la bibliografía clásica de Sistemas Operativos están basadas en re-ediciones y compendio de libros de hace varias décadas que incluyen temas obsoletos o desactualizados. Existen también desarrollos y tendencias nuevas en el área que aun no han sido integradas en la bibliografía clásica, y mucho menos a las traducciones. El presente libro pretende también revisar y actualizar los conceptos clásicos de sistemas operativos incluyendo material de publicación reciente.",
+            "precio": 24,
+            "categoria": "Software General",
+            "stock": 20,
+            "imagen": "static/images/14692.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 165891,
+        "fields": {
+            "id": 165891,
+            "titulo": "Sistemas operativos en las netbooks: GNU/Linux y Microsoft Windows. Serie instrumental para el modelo 1 a 1 (Digital)",
+            "autor": "Javier Castrillo & Darío Martín Gelbort",
+            "sinopsis": "Este material, destinado a docentes y alumnos, es una guía para conocer en forma básica el sistema operativo Windows y el sistema GNU/Linux. Se brindan elementos para situarse por primera vez en uno u otro sistema, en los elementos de su escritorio, la gestión de programas, carpetas y archivos. \r\n\r\nEl sistema operativo consiste en un conjunto de programas que administran los recursos de la computadora de la forma más eficaz posible. Es el intermediario entre el hardware (los procesadores, las memorias, los dispositivos de entrada y salida) y las diversas aplicaciones que utilizamos a diario. El sistema operativo es el encargado de:\r\n\r\n<ul>\r\n<li>La interfaz gráfica entre el sistema y el usuario, es decir la apariencia visual en la que se nos muestran los programas, archivos y carpetas.</li>\r\n<li>La administración de diferentes usuarios en una misma computadora y la posibilidad de compartir datos con otras computadoras.</li>\r\n<li>La seguridad.</li>\r\n<li>El acceso y la comunicación con los dispositivos de entrada y salida (teclado, mouse, pendrive, impresoras, etc.).</li>\r\n</ul>",
+            "precio": 21,
+            "categoria": "GNU / Linux",
+            "stock": 91,
+            "imagen": "static/images/16589.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 167031,
+        "fields": {
+            "id": 167031,
+            "titulo": "El tablero medieval de cálculo y las operaciones con números romanos: estudio histórico y pedagógico (Digital)",
+            "autor": "José María Núñez",
+            "sinopsis": "Se describe el fundamento del tablero medieval de cálculo y su uso para la realización de operaciones aritméticas. Se muestra la sencilla operativa de este instrumento y cómo el sistema se adecua perfectamente a la escritura utilizando números romanos. La descripción se complementa con diversas consideraciones tanto históricas como pedagógicas. Así, se analizan sus antecedentes, y puesto que el tablero de calcular es la evolución del ábaco romano, el trabajo comienza con un breve estudio de este instrumento de cálculo basado exclusivamente en los datos arqueológicos y documentales conservados. \r\n\r\nTambién, y a partir del análisis de la utilización del tablero, ofrecemos una visión más completa de los factores que explican la resistencia ofrecida por la sociedad europea a la introducción del sistema de numeración indo arábigo y su metodología algorítmica. \r\n\r\nFinalmente, se plantea un estudio comparativo entre la metodología del tablero y la algorítmica tradicional mostrándose las semejanzas estructurales que subyacen entre ambas metodologías de cálculo. ",
+            "precio": 16,
+            "categoria": "Historia",
+            "stock": 99,
+            "imagen": "static/images/16703.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    },
+    {
+        "model": "main.libro",
+        "pk": 160961,
+        "fields": {
+            "id": 160961,
+            "titulo": "Webperiodismo en un ecosistema líquido (Digital)",
+            "autor": "Varios",
+            "sinopsis": "Cuatro años pasaron desde el Primer Foro de Periodismo Digital Rosario allá por junio de 2008, cuando todavía faltaban unos días para que Apple anunciara la salida al mercado del iPhone 3G, un par de años para conocer la primera tablet, y Argentina se convertía en el tercer país del mundo donde más había crecido Facebook pasando 96 mil usuarios registrados a poco más de 500 mil en los días que se realizaba el foro. Twitter era una comunidad realmente pequeña. \r\n\r\nBasta comparar esos datos con los cerca de 20 millones de usuarios con una penetración de casi el 50% para Facebook en Argentina, y prestar la debida atención al anuncio de que las conexiones móviles ya superaron a las fijas como forma de acceder a los contenidos en la Web, para confirmar que el paradigma de transición es vertiginoso y nos exige atención y actualización permanente. \r\n\r\nEn este escenario resulta imprescindible un espacio de reﬂexión como este Foro Internacional de Periodismo Digital que no para de crecer en calidad de contenidos y cantidad de asistentes, y se ha posicionado como un evento anual de referencia en Argentina y toda Iberoamérica. \r\n\r\nPero el nuevo escenario también demanda la experimentación y por eso desde 2011 el Foro de Periodismo Internacional de Periodismo Digital ha incorporado talleres de innovación periodística en medios digitales. \r\n\r\nComo bien dice Gumersindo Lafuente en su artículo ya pasó la hora de buscar certezas donde sólo hay incertidumbres. Mucho se habla de la crisis del periodismo acelerada por la convergencia digital, y de la tragedia económica de los medios, pero es hora de acostumbrarse al nuevo escenario y a sus reglas de juego.",
+            "precio": 25,
+            "categoria": "Información",
+            "stock": 14,
+            "imagen": "static/images/16096.jpg",
+            "escaparate": "True",
+            "formato": "DIGITAL"
+        }
+    }
+]
